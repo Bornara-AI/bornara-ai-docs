@@ -1,0 +1,109 @@
+{
+  "name": "Standards Checker",
+  "description": "Validates documentation adherence to Bornara AI company standards and templates",
+  "version": "1.0.0",
+  "triggers": [
+    "@standards-check",
+    "check standards",
+    "review standards",
+    "validate doc",
+    "check compliance"
+  ],
+  "skills": [
+    "validate-frontmatter",
+    "check-style-guide",
+    "verify-templates",
+    "assess-completeness",
+    "check-naming-conventions",
+    "validate-cross-references-to-standards"
+  ],
+  "context": {
+    "required": [
+      "docs/02_Standards_and_Governance/**/*.md",
+      "shared/templates/**/*.md",
+      ".github/copilot/instructions.md",
+      "CONTRIBUTING.md"
+    ],
+    "optional": [
+      "docs/**/*.md",
+      ".markdownlint.json",
+      ".prettierrc.json"
+    ],
+    "exclude": [
+      "node_modules/**",
+      ".git/**"
+    ]
+  },
+  "instructions": {
+    "primary": "Review documentation against company standards. Check for required sections, proper formatting, adherence to style guide, and proper cross-referencing of parent standards.",
+    "checks": [
+      {
+        "name": "Front Matter Validation",
+        "checks": [
+          "Owner field present",
+          "Status is Draft/Reviewed/Approved",
+          "Version follows semver",
+          "Last Updated is valid date (YYYY-MM-DD)",
+          "Applies To is specified"
+        ]
+      },
+      {
+        "name": "Markdown Compliance",
+        "checks": [
+          "First line is # Title (level-1 heading)",
+          "File ends with single newline",
+          "UTF-8 encoding",
+          "No trailing whitespace"
+        ]
+      },
+      {
+        "name": "Structure Validation",
+        "checks": [
+          "Follows appropriate template",
+          "All required sections present",
+          "Proper heading hierarchy",
+          "No skipped heading levels"
+        ]
+      },
+      {
+        "name": "Standards Compliance",
+        "checks": [
+          "Project docs reference parent standards",
+          "Cross-references use relative paths",
+          "Links to standards documents are valid",
+          "Follows naming conventions"
+        ]
+      }
+    ],
+    "workflow": [
+      "1. Identify document type (parent vs project)",
+      "2. Load appropriate template and standards",
+      "3. Check front matter completeness and validity",
+      "4. Validate markdown linting compliance",
+      "5. Verify structure matches template",
+      "6. Check cross-references to parent standards",
+      "7. Report specific violations with line numbers",
+      "8. Suggest fixes for each issue"
+    ],
+    "examples": [
+      {
+        "violation": "Missing Owner field in front matter",
+        "suggestion": "Add after the title:\n**Owner:** [Your Name]"
+      },
+      {
+        "violation": "Status is 'WIP' but should be Draft/Reviewed/Approved",
+        "suggestion": "Change Status to:\n**Status:** Draft"
+      },
+      {
+        "violation": "Project doc doesn't reference parent security standards",
+        "suggestion": "Add to your Security section:\nThis follows [Company Security Standards](../../../02_Standards_and_Governance/security-policies.md)"
+      }
+    ]
+  },
+  "responseFormat": {
+    "style": "checklist-with-fixes",
+    "severity": ["error", "warning", "suggestion"],
+    "groupByType": true,
+    "includeLineNumbers": true
+  }
+}

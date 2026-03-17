@@ -1,0 +1,2 @@
+node scripts/check-readme.js
+npx lint-staged

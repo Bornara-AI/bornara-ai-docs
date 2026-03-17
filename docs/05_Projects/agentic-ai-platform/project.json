@@ -1,0 +1,18 @@
+{
+  "id": "agentic-ai-platform",
+  "name": "Agentic AI Platform",
+  "description": "Enterprise AI agent orchestration platform for building, deploying, and managing intelligent autonomous agents",
+  "status": "active",
+  "phase": "design",
+  "owner": "Mahdi Moradi",
+  "team": ["Engineering Team"],
+  "startDate": "2026-01",
+  "technologies": ["Azure", "Python", "LangChain", "FastAPI", "CosmosDB", "Service Bus"],
+  "repository": "https://github.com/Bornara-AI/agentic-ai-platform",
+  "documentation": "/docs/05_Projects/agentic-ai-platform/",
+  "parentStandards": [
+    "/docs/02_Standards_and_Governance/documentation-standards.md",
+    "/docs/02_Standards_and_Governance/architecture-principles.md",
+    "/docs/02_Standards_and_Governance/security-policies.md"
+  ]
+}

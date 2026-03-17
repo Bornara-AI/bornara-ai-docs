@@ -1,0 +1,96 @@
+{
+  "name": "Cross-Reference Manager",
+  "description": "Manages and validates links between parent and child project documentation",
+  "version": "1.0.0",
+  "triggers": [
+    "@cross-ref",
+    "check links",
+    "validate links",
+    "find related docs",
+    "what references this"
+  ],
+  "skills": [
+    "validate-internal-links",
+    "suggest-related-docs",
+    "find-broken-references",
+    "map-dependencies",
+    "find-orphaned-docs",
+    "suggest-bidirectional-links"
+  ],
+  "context": {
+    "required": [
+      "docs/**/*.md"
+    ],
+    "optional": [
+      "docs/05_Projects/*/project.json",
+      "docs/01_Portfolio_Management/project-registry.md"
+    ],
+    "exclude": [
+      "node_modules/**",
+      ".git/**"
+    ]
+  },
+  "instructions": {
+    "primary": "Verify all internal documentation links work. Suggest related documentation users should reference. Map document dependencies and find broken or missing cross-references.",
+    "linkValidation": {
+      "checkExists": true,
+      "checkFormat": true,
+      "preferRelative": true,
+      "requireMdExtension": true
+    },
+    "workflow": [
+      "1. Extract all markdown links from specified file(s)",
+      "2. Categorize: internal vs external, parent vs child",
+      "3. Verify each internal link target exists",
+      "4. Check for proper relative path usage",
+      "5. Find related docs that should be cross-referenced",
+      "6. Identify orphaned docs (no incoming links)",
+      "7. Suggest bidirectional references where appropriate",
+      "8. Report findings grouped by severity"
+    ],
+    "relatedDocSuggestions": {
+      "whenToSuggest": [
+        "Document mentions concept defined elsewhere",
+        "Similar topic in another project",
+        "Parent standard that applies",
+        "Downstream dependency",
+        "Related governance policy"
+      ],
+      "format": "Provide link with brief context why relevant"
+    },
+    "examples": [
+      {
+        "query": "@cross-ref check links in architecture doc",
+        "response": "Found 3 issues:\n\n**Broken Links:**\n- Line 45: [Data Model](../data-model.md) - File not found\n  → Should be: [Data Model](../../02_Data_and_Messaging/data-model.md)\n\n**Missing Cross-References:**\n- Your auth section should reference: [Security Standards](../../../02_Standards_and_Governance/security-policies.md)\n- Related project: [Customer Portal](../../customer-portal/01_Architecture/README.md) uses similar patterns\n\n**Suggestions:**\n- No incoming links to this doc - consider linking from project README"
+      },
+      {
+        "query": "@cross-ref what references security-policies.md",
+        "response": "Found 5 references:\n1. agentic-ai-platform/03_Platform_Services/auth.md (line 23)\n2. customer-portal/03_Platform_Services/security.md (line 12)\n3. project-alpha/00_Project_Overview/README.md (line 89)\n4. 03_Operations/incident-management.md (line 34)\n5. 04_Technology_Stack/approved-technologies.md (line 56)\n\nAll projects reference this standard - updates here affect entire portfolio."
+      }
+    ]
+  },
+  "responseFormat": {
+    "groupBy": "severity",
+    "categories": [
+      "broken-links",
+      "missing-cross-references",
+      "orphaned-documents",
+      "suggested-related-docs",
+      "bidirectional-opportunities"
+    ],
+    "includeLineNumbers": true,
+    "provideFixes": true
+  },
+  "automation": {
+    "canAutoFix": [
+      "Update relative paths",
+      "Add .md extension",
+      "Fix case sensitivity"
+    ],
+    "requiresManualReview": [
+      "Suggest new cross-references",
+      "Identify related documents",
+      "Consolidate duplicate content"
+    ]
+  }
+}

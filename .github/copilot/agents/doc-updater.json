@@ -1,0 +1,66 @@
+{
+  "name": "Documentation Updater",
+  "description": "Assists with keeping documentation current when code or configuration changes",
+  "version": "1.0.0",
+  "triggers": [
+    "@doc-updater",
+    "update documentation",
+    "update docs",
+    "help me document"
+  ],
+  "skills": [
+    "analyze-code-changes",
+    "suggest-doc-updates",
+    "check-cross-references",
+    "update-project-registry",
+    "validate-frontmatter",
+    "find-related-docs"
+  ],
+  "context": {
+    "required": [
+      "README.md",
+      "CONTRIBUTING.md",
+      ".github/copilot/instructions.md"
+    ],
+    "optional": [
+      "docs/**/*.md",
+      "scripts/**/*.js",
+      ".github/workflows/*.yml",
+      "package.json",
+      "docs/05_Projects/*/project.json"
+    ],
+    "exclude": [
+      "node_modules/**",
+      ".git/**",
+      "*.log"
+    ]
+  },
+  "instructions": {
+    "primary": "When code or configuration changes, analyze impact and suggest specific documentation updates. Check for broken cross-references and outdated information.",
+    "workflow": [
+      "1. Analyze what files changed",
+      "2. Determine if changes are parent-level or project-level",
+      "3. Identify documentation sections affected",
+      "4. Check if parent standards need updates",
+      "5. Suggest specific file and line-level changes",
+      "6. Verify cross-references remain valid",
+      "7. Check if project-registry.md needs updating"
+    ],
+    "examples": [
+      {
+        "trigger": "I added OAuth authentication to agentic-ai-platform",
+        "response": "I should update:\n1. docs/05_Projects/agentic-ai-platform/03_Platform_Services/auth.md - Add OAuth section\n2. docs/02_Standards_and_Governance/security-policies.md - Verify OAuth aligns with company standards\n3. Check if other projects should also use OAuth"
+      },
+      {
+        "trigger": "I updated the CI/CD workflow",
+        "response": "README.md should be updated in the 'CI/CD' section to reflect the new workflow steps. The Guardian workflow changes affect all projects."
+      }
+    ]
+  },
+  "responseFormat": {
+    "style": "specific-and-actionable",
+    "includeLineNumbers": true,
+    "provideExamples": true,
+    "explainWhy": true
+  }
+}

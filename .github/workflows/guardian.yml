@@ -1,0 +1,82 @@
+name: Documentation Guardian
+
+on:
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "docs/**/*.md"
+      - ".github/workflows/guardian.yml"
+      - ".markdownlint.json"
+
+jobs:
+  frontmatter:
+    name: Front-matter Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate required front matter in docs/**/*.md
+        run: |
+          python3 - << 'PY'
+          import glob, sys, re
+
+          required = ["Owner:", "Status:", "Version:", "Last Updated:", "Applies To:"]
+          allowed_status = {"Draft", "Reviewed", "Approved"}
+
+          def read_file(path):
+            for enc in ("utf-8", "utf-16", "utf-8-sig"):
+              try:
+                with open(path, "r", encoding=enc) as f:
+                  return f.read()
+              except UnicodeDecodeError:
+                pass
+            raise UnicodeDecodeError("Unable to decode file", b"", 0, 1, "unknown encoding")
+
+          errors = []
+          files = sorted(glob.glob("docs/**/*.md", recursive=True))
+
+          # Exclude templates
+          files = [f for f in files if not f.endswith("_template.md") and "/shared/" not in f]
+
+          if not files:
+            print("No docs/**/*.md found. Skipping.")
+            sys.exit(0)
+
+          for f in files:
+            try:
+              text = read_file(f)
+            except UnicodeDecodeError:
+              errors.append(f"{f}: unsupported file encoding (use UTF-8)")
+              continue
+
+            missing = [r for r in required if r not in text]
+            if missing:
+              errors.append(f"{f}: missing {', '.join(missing)}")
+
+            m = re.search(r"^Status:\s*(.+)\s*$", text, flags=re.MULTILINE)
+            if m:
+              status = m.group(1).strip().rstrip('*')
+              if status not in allowed_status:
+                errors.append(f"{f}: invalid Status '{status}' (must be Draft, Reviewed, or Approved)")
+
+          if errors:
+            print("❌ Guardian BLOCKER:")
+            for e in errors:
+              print(" - " + e)
+            sys.exit(1)
+
+          print(f"✅ Front-matter check passed for {len(files)} files")
+          PY
+
+  markdownlint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            docs/**/*.md
+            !docs/**/shared/**

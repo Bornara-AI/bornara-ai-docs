@@ -1,0 +1,40 @@
+{
+  "name": "bornara-ai-docs",
+  "version": "1.0.0",
+  "description": "Bornara AI comprehensive documentation system - parent and child projects",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lint:md": "markdownlint-cli2 \"docs/**/*.md\"",
+    "lint:md:fix": "markdownlint-cli2 --fix \"docs/**/*.md\"",
+    "lint:project": "markdownlint-cli2 \"docs/05_Projects/$PROJECT/**/*.md\"",
+    "check:readme": "node scripts/check-readme.js",
+    "check:cross-refs": "node scripts/validate-cross-refs.js",
+    "project:create": "node scripts/create-new-project.js",
+    "project:list": "node scripts/list-projects.js",
+    "registry:update": "node scripts/generate-project-registry.js",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bornara-AI/bornara-ai-docs.git"
+  },
+  "keywords": ["documentation", "monorepo", "portfolio"],
+  "author": "Bornara AI",
+  "license": "PROPRIETARY",
+  "bugs": {
+    "url": "https://github.com/Bornara-AI/bornara-ai-docs/issues"
+  },
+  "homepage": "https://github.com/Bornara-AI/bornara-ai-docs#readme",
+  "devDependencies": {
+    "glob": "^10.3.10",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.10",
+    "markdownlint-cli2": "^0.21.0"
+  },
+  "lint-staged": {
+    "docs/**/*.md": "markdownlint-cli2"
+  }
+}
