@@ -192,3 +192,35 @@ All business documentation is in `docs/06_Business_Planning/`:
 | team-and-family-roles.md        | Wife, kids, brother roles and documentation      |
 | time-management-plan.md         | Schedule around 9-5 job                          |
 | automation-agent-plan.md        | AI agents and automation strategy                |
+
+---
+
+## AI Instructions: Mutation Policy
+
+> **For all AI assistants:** This file is the source of truth, but it is a **living document**.
+> You are expected to challenge and suggest updates to any data marked as "living estimate" below.
+
+### Immutable (Do Not Change Without User Confirmation)
+
+- Owner identity, family relationships, location
+- Business registration details and CRA rules
+- Historical filings (2025 actuals)
+
+### Living Estimates (Challenge These)
+
+- Revenue targets, expense projections, deduction amounts
+- Roadmap timelines and milestones
+- Pricing strategies and marketing channel mix
+- Team hours, rates, and role descriptions
+- Technology stack choices
+
+### How to Suggest Updates
+
+1. State what seems outdated and why
+2. Propose the specific change with before/after values
+3. Note impact on other documents
+4. All changes go through pull requests — never edit `main` directly
+
+### Governance Reference
+
+See [AI Governance Policy](../02_Standards_and_Governance/ai-governance.md) for full details.
