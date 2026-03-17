@@ -15,6 +15,10 @@ manages both company-wide documentation and individual project documentation in 
 - **03_Operations** - Cross-project operational procedures
 - **04_Technology_Stack** - Approved technologies and frameworks
 
+### Business Planning & Strategy
+
+- **06_Business_Planning** - Business plan, tax strategy, CRA compliance, expansion plans
+
 ### Child-Level Documentation (Projects)
 
 - **05_Projects/** - Individual project documentation

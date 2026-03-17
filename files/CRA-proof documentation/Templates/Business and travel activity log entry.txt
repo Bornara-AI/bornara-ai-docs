@@ -1,0 +1,20 @@
+Business Activity log entry:
+
+Date:
+Project:
+Tasks completed:
+Time spent:
+Outcome:
+
+
+
+
+Travel log entry:
+
+Date:
+From:
+To:
+Purpose:
+KM driven:
+Fuel/parking cost:
+
