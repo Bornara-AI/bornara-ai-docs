@@ -35,6 +35,15 @@ proprietorship. It covers the full business strategy across all revenue streams:
 | [Tax Optimization Plan](tax-optimization-plan.md)                   | CRA-compliant tax strategy for 2026                   |
 | [CRA Compliance Guide](cra-compliance-guide.md)                     | Documentation requirements and audit readiness         |
 | [Expense Tracking Guide](expense-tracking-guide.md)                 | What to track, how, and deduction categories           |
+| [T2125 Filing Guides](t2125-filing-guides.md)                       | Step-by-step T2125 filing for 2025 and 2026           |
+| [CRA Templates](cra-templates.md)                                   | Receipt, timesheet, and log templates                  |
+
+### Project Operations
+
+| Document                                                            | Description                                           |
+|---------------------------------------------------------------------|-------------------------------------------------------|
+| [Giftifye Operations Guide](giftifye-operations-guide.md)           | Complete Shopify playbook: products, bundles, launch   |
+| [AI Platform Features & Roadmap](ai-platform-features-roadmap.md)   | Feature list and 2026-2027 development roadmap         |
 
 ### Expansion & Operations
 
@@ -45,8 +54,6 @@ proprietorship. It covers the full business strategy across all revenue streams:
 | [Automation & Agent Plan](automation-agent-plan.md)                 | How to use AI agents to automate business operations  |
 | [Time Management Plan](time-management-plan.md)                     | Balancing 9-5 job with side business                  |
 
-## Quick Links
+## Quick Reference
 
-- [Master Context](../../files/Master%20context%20with%20revenue.docx) — Source business data
-- [CRA-Proof Documentation](../../files/CRA-proof%20documentation/) — Filing documentation
-- [Excel Logs](../../files/Excel/) — Financial tracking spreadsheets
+- [Master Business Context](../00_Company_Overview/master-business-context.md) — Single source of truth for all AI tools

@@ -1,5 +1,23 @@
 # GitHub Copilot Instructions for Bornara AI Documentation
 
+## CRITICAL: Read Business Context First
+
+Before answering ANY question about this repository, read
+`docs/00_Company_Overview/master-business-context.md`. This file contains the complete business
+context including: owner profile, revenue streams, financial data, tax strategy, team roles, and
+all project details. Every response must be informed by this context.
+
+## Business Overview (Quick Reference)
+
+- **Owner:** Mahdi Moradi, Calgary, Alberta, Canada
+- **Business:** Bornara AI — Sole Proprietorship (started 2025)
+- **Revenue Streams:** Giftifye.com (Shopify gifts), AI Agent Platform (SaaS), Tech Consulting, Cookie Business
+- **2026 Revenue Target:** $5,000-$8,500
+- **Team:** Mahdi (owner), Narjes (wife — design/admin), 2 children (light tasks), brother abroad (contractor Q3+)
+- **Tax Strategy:** T2125 with legitimate business loss ($10K-$20K), CRA-compliant
+- **All business docs:** `docs/06_Business_Planning/`
+- **All CRA templates:** `docs/06_Business_Planning/cra-templates.md`
+
 ## Context
 
 You are assisting with Bornara AI's technical documentation system. This is a **monorepo**
@@ -14,14 +32,15 @@ containing:
 ```
 bornara-ai-docs/
 ├── docs/
-│   ├── 00_Company_Overview/          # Vision, mission, org structure
+│   ├── 00_Company_Overview/          # Vision, mission, org structure, MASTER CONTEXT
 │   ├── 01_Portfolio_Management/      # Project registry and lifecycle
 │   ├── 02_Standards_and_Governance/  # Company-wide standards
 │   ├── 03_Operations/                # Cross-project operations
 │   ├── 04_Technology_Stack/          # Approved technologies
-│   └── 05_Projects/                  # Individual projects
-│       ├── agentic-ai-platform/      # AI agent orchestration platform
-│       └── [other-projects]/         # Future projects
+│   ├── 05_Projects/                  # Individual projects
+│   │   ├── agentic-ai-platform/      # AI agent orchestration platform
+│   │   └── [other-projects]/         # Future projects
+│   └── 06_Business_Planning/         # Business plan, tax, CRA, marketing, ops
 ```
 
 ## Documentation Standards
