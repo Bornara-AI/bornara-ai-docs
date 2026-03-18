@@ -93,9 +93,11 @@ Invoke by name in chat, or Copilot auto-routes based on question type:
 |---|---|---|
 | `@orchestrator` | "what should I do" / planning | Meta-routing, cross-domain |
 | `@business-advisor` | strategy, pricing, growth | Finance, operations, decisions |
+| `@business-reviewer` | review business plan, is this realistic | Business plan quality gate |
 | `@cra-tax` | CRA, T2125, deductions, receipts | Canadian tax compliance |
 | `@shopify-ops` | Giftifye, products, bundles | Shopify operations |
 | `@ai-platform` | AI platform, Azure, SaaS, architecture | Technical platform |
+| `@code-reviewer` | review code, review script, review workflow | Senior code review + fix |
 | `@doc-autofix` | fix docs, fix front-matter, lint errors | Documentation auto-repair |
 | `@standards-checker` | validate docs, check compliance | Standards validation |
 | `@doc-updater` | update docs after code change | Documentation freshness |
@@ -137,11 +139,34 @@ scripts/                     Automation (doc-autofix.js, create-new-project.js, 
 .github/
   copilot/
     instructions.md          Full system instructions (read this for deep context)
-    agents/                  10 agent definitions
+    agents/                  12 agent definitions
+  prompts/                   Reusable deep-dive prompt templates (use with #promptName)
   workflows/
     guardian.yml             PR checks: front-matter + markdown lint
     copilot-doc-assist.yml   PR checks: README freshness, project detection
 ```
+
+---
+
+## Prompt Templates — Deep-Dive Reusable Sessions
+
+These live in `.github/prompts/`. Attach one in chat or type `#prompt-name` to load it.
+Each prompt encodes an expert persona + structured review criteria + mandatory self-critique loop.
+
+| Prompt file | Use when |
+|---|---|
+| `strategic-overview` | "What should I do next?" / cross-domain health check |
+| `business-plan-review` | Full quality gate on any business planning doc |
+| `cra-tax-advisor` | Deep CRA compliance, T2125 mapping, deduction analysis |
+| `shopify-growth-advisor` | Giftifye product/marketing/pricing strategy |
+| `ai-platform-advisor` | SaaS architecture, feature scoping, Azure cost |
+| `code-review` | Senior review of any script, workflow, or config file |
+| `doc-quality-review` | Full structural + content + cross-reference review |
+
+**How to trigger:** In VS Code Copilot Chat, type `/` and select the prompt, or type
+`#strategic-overview` to attach it to your message.
+**Self-critique is built in** — every prompt ends with a mandatory checklist the AI runs on
+its own output before responding, then scores its confidence (1–10).
 
 ---
 

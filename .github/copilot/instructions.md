@@ -52,6 +52,8 @@ knowledge.
 | Fix front-matter, repair lint errors, auto-fix docs | `@doc-autofix` | `@standards-checker` |
 | Links, cross-references, broken refs | `@cross-ref` | `@doc-updater` |
 | Code changes, config updates, doc freshness | `@doc-updater` | `@standards-checker` |
+| Review code, script, workflow, CI/CD file | `@code-reviewer` | `@doc-updater` |
+| Review business plan, is this realistic, validate | `@business-reviewer` | `@cra-tax` |
 | "What should I do?", planning, priorities | `@orchestrator` | All relevant agents |
 | New tool/system/process needed | `@agent-creator` | `@orchestrator` |
 | Cookie business, baking, cottage food | `@business-advisor` | `@shopify-ops`, `@cra-tax` |
@@ -167,6 +169,8 @@ When you identify the need for a new agent:
 | `@cra-tax` | Tax filing, deductions, CRA documentation | T2125 guides, templates |
 | `@doc-updater` | Documentation maintenance after changes | All docs, workflows |
 | `@doc-autofix` | Interactive front-matter + lint repair (permission gates) | All docs, doc-autofix.js, .markdownlint.json |
+| `@code-reviewer` | Senior code review — scripts, CI/CD, configs (CRITICAL/MAJOR/MINOR) | scripts/, .github/workflows/, package.json |
+| `@business-reviewer` | Business plan quality gate — feasibility, realism, CRA fit | All 06_Business_Planning docs |
 | `@standards-checker` | Documentation standards validation | Standards, templates |
 | `@cross-ref` | Link validation and cross-referencing | All docs, registry |
 
