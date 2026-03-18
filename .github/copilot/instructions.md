@@ -48,7 +48,8 @@ knowledge.
 | AI platform, SaaS, Azure, architecture, agents | `@ai-platform` | `@doc-updater` |
 | Revenue, pricing, growth, projections, strategy | `@business-advisor` | `@cra-tax` |
 | Marketing, ads, social media, TikTok, content | `@shopify-ops` | `@business-advisor` |
-| Documentation, standards, front matter, linting | `@standards-checker` | `@cross-ref` |
+| Documentation, standards, front matter, linting | `@standards-checker` | `@doc-autofix` |
+| Fix front-matter, repair lint errors, auto-fix docs | `@doc-autofix` | `@standards-checker` |
 | Links, cross-references, broken refs | `@cross-ref` | `@doc-updater` |
 | Code changes, config updates, doc freshness | `@doc-updater` | `@standards-checker` |
 | "What should I do?", planning, priorities | `@orchestrator` | All relevant agents |
@@ -165,6 +166,7 @@ When you identify the need for a new agent:
 | `@ai-platform` | AI Agent Platform development, architecture | Features roadmap, project docs |
 | `@cra-tax` | Tax filing, deductions, CRA documentation | T2125 guides, templates |
 | `@doc-updater` | Documentation maintenance after changes | All docs, workflows |
+| `@doc-autofix` | Interactive front-matter + lint repair (permission gates) | All docs, doc-autofix.js, .markdownlint.json |
 | `@standards-checker` | Documentation standards validation | Standards, templates |
 | `@cross-ref` | Link validation and cross-referencing | All docs, registry |
 
@@ -216,7 +218,7 @@ When reviewing any document, if you see:
 
 1. Create a feature branch from `main`
 2. Make changes on the feature branch
-3. Run `npm run lint:md:fix` and `npm run check:cross-refs`
+3. Run `npm run doc:fix` (front-matter) and `npm run lint:md:fix` (markdown) and `npm run check:cross-refs`
 4. Commit with conventional commit messages (`docs:`, `feat:`, `fix:`)
 5. Push branch and create PR
 6. Guardian workflow validates the PR
@@ -311,13 +313,15 @@ Every `.md` file MUST start with:
 ## 9. Helpful Commands
 
 ```bash
-npm run lint:md          # Lint all documentation
-npm run lint:md:fix      # Auto-fix markdown issues
-npm run check:readme     # Check if README needs updating
-npm run check:cross-refs # Validate cross-references
+npm run doc:fix           # Interactive front-matter fixer — asks permission per file
+npm run doc:fix:staged    # Same, only staged files (used automatically in pre-commit)
+npm run lint:md           # Lint all documentation (check only)
+npm run lint:md:fix       # Auto-fix all markdown lint issues (no permission needed)
+npm run check:readme      # Check if README needs updating
+npm run check:cross-refs  # Validate cross-references
 npm run project:create -- --name "Name" --id "id"  # Create new project
-npm run registry:update  # Update project registry
-npm run project:list     # List all projects
+npm run registry:update   # Update project registry
+npm run project:list      # List all projects
 ```
 
 ---

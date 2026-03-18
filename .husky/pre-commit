@@ -1,2 +1,3 @@
 node scripts/check-readme.js
+node scripts/doc-autofix.js --staged
 npx lint-staged
