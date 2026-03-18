@@ -7,7 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const glob = require('glob');
+const { globSync } = require('glob');
 
 const colors = {
     reset: '\x1b[0m',
@@ -78,7 +78,7 @@ function validateCrossReferences() {
     log('━'.repeat(60), 'cyan');
 
     // Find all markdown files
-    const files = glob.sync('docs/**/*.md', {
+    const files = globSync('docs/**/*.md', {
         ignore: ['**/node_modules/**', '**/_template.md'],
     });
 
@@ -89,7 +89,13 @@ function validateCrossReferences() {
     let totalLinks = 0;
 
     for (const file of files) {
-        const content = fs.readFileSync(file, 'utf-8');
+        let content;
+        try {
+            content = fs.readFileSync(file, 'utf-8');
+        } catch (err) {
+            warnings.push({ file, line: 0, issue: `Could not read file: ${err.message}`, url: '' });
+            continue;
+        }
         const links = extractLinks(content, file);
         totalLinks += links.length;
 

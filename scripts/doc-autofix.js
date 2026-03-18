@@ -19,7 +19,7 @@
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
-const { execSync } = require('child_process');
+const { execSync, spawnSync } = require('child_process');
 const { glob } = require('glob');
 
 // ─── CLI flags ──────────────────────────────────────────────────────────────
@@ -315,11 +315,10 @@ async function main() {
       const fixed = rebuildFile(text, fields);
       fs.writeFileSync(file, fixed, 'utf8');
       if (STAGED_ONLY) {
-        try {
-          execSync(`git add "${path.relative(process.cwd(), file)}"`, {
-            stdio: 'ignore',
-          });
-        } catch { /* ignore */ }
+        // Use spawnSync with arg array — no shell involved, no path injection risk
+        spawnSync('git', ['add', path.relative(process.cwd(), file)], {
+          stdio: 'ignore',
+        });
       }
       console.log(`   ✅  Fixed: ${rel}`);
       fixedCount++;

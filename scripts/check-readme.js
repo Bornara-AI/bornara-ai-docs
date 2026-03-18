@@ -139,4 +139,4 @@ function main() {
     return 0;
 }
 
-process.exit(main());
+process.exit(main() ?? 0);

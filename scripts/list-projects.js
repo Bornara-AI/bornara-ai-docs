@@ -6,7 +6,7 @@
  */
 
 const fs = require('fs');
-const glob = require('glob');
+const { globSync } = require('glob');
 
 const colors = {
     reset: '\x1b[0m',
@@ -40,7 +40,7 @@ function listProjects() {
     log('━'.repeat(80), 'cyan');
 
     // Find all project.json files
-    const projectFiles = glob.sync('docs/05_Projects/*/project.json');
+    const projectFiles = globSync('docs/05_Projects/*/project.json');
 
     if (projectFiles.length === 0) {
         log('\n⚠️  No projects found\n', 'yellow');
