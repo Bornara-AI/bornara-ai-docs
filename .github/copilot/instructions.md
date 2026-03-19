@@ -64,7 +64,7 @@ knowledge.
 
 When a question spans multiple domains, structure your response with clearly labeled sections:
 
-```
+```markdown
 ## Tax Impact (@cra-tax perspective)
 [Tax analysis here]
 
@@ -153,9 +153,9 @@ When you identify the need for a new agent:
 }
 ```
 
-3. Explain which questions would route to it
-4. Suggest updates to this instructions file's routing table
-5. Offer to create the agent file on a feature branch
+1. Explain which questions would route to it
+2. Suggest updates to this instructions file's routing table
+3. Offer to create the agent file on a feature branch
 
 ### Current Agent Registry
 
@@ -251,7 +251,7 @@ Always frame changes as "I'll create this on a branch for your review" rather th
 
 ### Repository Structure
 
-```
+```text
 bornara-ai-docs/
 ├── .github/
 │   ├── copilot/
@@ -362,6 +362,7 @@ looks too high given current Shopify setup timeline. Suggest $800-$1,000. Here i
 
 Bad: "You should use Facebook Ads"
 Good: "Three marketing options for your budget:
+
 1. **TikTok organic** ($0, 3hrs/week) — highest ROI for gift niche, but slower
 2. **Facebook Ads** ($200/month) — faster results, good targeting for gifts
 3. **Micro-influencer** ($150/month) — authentic, builds trust, wife can manage
@@ -370,6 +371,7 @@ Recommendation: Start with option 1, add option 3 in month 2"
 ### Explain Cross-Impact
 
 When suggesting a change, always note what else it affects:
+
 - Other documents that need updating
 - Tax implications
 - Time/cost impact

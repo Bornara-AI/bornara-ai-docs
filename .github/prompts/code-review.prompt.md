@@ -1,10 +1,5 @@
 ---
-mode: chat
-description: >
-  Senior-level code review for any file in this repository. Covers security,
-  correctness, maintainability, CI/CD logic, Node.js/Python/shell scripting
-  idioms, GitHub Actions workflow quality, and JSON schema integrity. Includes
-  a mandatory self-critique pass with severity scoring before final output.
+description: "Senior-level code review for any file in this repository. Covers security, correctness, maintainability, CI/CD logic, Node.js/Python/shell scripting idioms, and JSON schema integrity."
 ---
 
 # Code Review — Bornara AI Repository

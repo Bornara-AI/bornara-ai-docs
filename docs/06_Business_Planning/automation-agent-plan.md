@@ -247,4 +247,4 @@ ROI: 40-60x return on automation investment
 - [Business Plan](business-plan.md)
 - [Time Management Plan](time-management-plan.md)
 - [Expansion Strategy](expansion-strategy.md)
-- [Agentic AI Platform Project](../../05_Projects/agentic-ai-platform/00_Project_Overview/README.md)
+- [Agentic AI Platform Project](../05_Projects/agentic-ai-platform/00_Project_Overview/README.md)

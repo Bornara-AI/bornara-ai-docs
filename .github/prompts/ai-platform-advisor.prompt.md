@@ -1,10 +1,5 @@
 ---
-mode: chat
-description: >
-  AI Agent Platform technical and product advisor. Covers architecture
-  decisions, feature prioritisation, SaaS strategy, Azure cost management,
-  MVP scope, and competitive positioning — all calibrated for a solo developer
-  building a side-project SaaS with limited time. Includes self-critique loop.
+description: "AI Agent Platform technical and product advisor. Covers architecture decisions, feature prioritisation, SaaS strategy, Azure cost management, MVP scope, and competitive positioning for a solo developer."
 ---
 
 # AI Platform Advisor — Bornara AI Agent Platform

@@ -42,7 +42,7 @@ const REQUIRED_FIELDS = [
   'Applies To:',
 ];
 
-const VALID_STATUSES = new Set(['Draft', 'Reviewed', 'Approved']);
+const VALID_STATUSES = new Set(['Draft', 'Reviewed', 'Approved', 'Active']);
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 function inferAppliesTo(filePath) {
@@ -57,10 +57,13 @@ function inferAppliesTo(filePath) {
 }
 
 function extractField(text, label) {
-  // Handles both bold (**Owner:** value) and plain (Owner: value) formats
+  // Handles both bold (**Owner:** value) and plain (Owner: value) formats.
+  // Uses a lookahead to stop at the next bold field marker — this correctly
+  // extracts values from inline format: **Owner:** X **Status:** Y **Version:** Z
+  const fieldNames = 'Owner|Status|Version|Last Updated|Applies To';
   const pattern = new RegExp(
-    `\\*{0,2}${label.replace(':', ':\\*{0,2}')}\\s*(.+)`,
-    'i'
+    `\\*{0,2}${label.replace(':', ':\\*{0,2}')}\\s*(.+?)(?=\\s*\\*{0,2}(?:${fieldNames})\\*{0,2}:|\\s*$)`,
+    'im'
   );
   const m = text.match(pattern);
   return m ? m[1].trim().replace(/\*+$/, '').trim() : null;

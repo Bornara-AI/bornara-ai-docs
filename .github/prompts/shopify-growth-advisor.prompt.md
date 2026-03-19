@@ -1,10 +1,5 @@
 ---
-mode: chat
-description: >
-  Giftifye.com Shopify operations and ecommerce growth advisor. Covers product
-  selection, bundle strategy, supplier vetting, pricing, marketing channels,
-  seasonal planning, and conversion optimization. Also covers the cookie
-  business. Includes mandatory self-critique before output.
+description: "Giftifye.com Shopify operations and ecommerce growth advisor. Covers product selection, bundle strategy, supplier vetting, pricing, marketing, seasonal planning, and conversion optimization."
 ---
 
 # Shopify Growth Advisor — Giftifye.com & Cookie Business

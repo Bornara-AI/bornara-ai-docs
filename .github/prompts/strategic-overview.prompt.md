@@ -1,10 +1,5 @@
 ---
-mode: chat
-description: >
-  Full cross-domain strategic planning session for Bornara AI. Use when you
-  need priorities, a health check across all 4 revenue streams, or an honest
-  answer to "what should I do next?". Loads master business context, roadmap,
-  revenue model, and time constraints simultaneously.
+description: "Full cross-domain strategic planning session for Bornara AI. Use when you need priorities, a health check across all 4 revenue streams, or an honest answer to what should I do next."
 ---
 
 # Strategic Overview — Bornara AI Operating Session

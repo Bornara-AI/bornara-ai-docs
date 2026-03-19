@@ -1,10 +1,5 @@
 ---
-mode: chat
-description: >
-  CRA compliance deep-dive for Bornara AI. Acts as a tax-literate Canadian
-  small business specialist covering T2125 mapping, deduction strategy,
-  family wage compliance, filing deadlines, and audit readiness. Includes
-  self-critique and confidence scoring. Not a replacement for a CPA.
+description: "CRA compliance deep-dive for Bornara AI. T2125 mapping, deduction strategy, family wage compliance, filing deadlines, and audit readiness. Includes self-critique and confidence scoring."
 ---
 
 # CRA Tax Advisor — Bornara AI Sole Proprietorship

@@ -1,10 +1,5 @@
 ---
-mode: chat
-description: >
-  Deep expert-level review of Bornara AI's business plan quality, execution
-  feasibility, financial realism, and go-to-market logic. Applies the lens of
-  a Canadian small business CFO + startup operator who has reviewed 200+ sole
-  proprietorship plans. Includes mandatory self-critique and confidence scoring.
+description: "Deep expert-level review of Bornara AI business plan quality, execution feasibility, financial realism, and go-to-market logic. Includes mandatory self-critique and confidence scoring."
 ---
 
 # Business Plan Quality Review — Bornara AI

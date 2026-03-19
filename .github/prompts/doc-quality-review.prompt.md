@@ -1,10 +1,5 @@
 ---
-mode: chat
-description: >
-  Full documentation quality review for any doc in this repository. Merges
-  doc-autofix + standards-checker + cross-reference concerns into one pass.
-  Reviews front-matter compliance, structural quality, content completeness,
-  cross-reference integrity, and actionability. Includes self-critique loop.
+description: "Full documentation quality review. Front-matter compliance, structural quality, content completeness, cross-reference integrity, and actionability. Includes self-critique loop."
 ---
 
 # Documentation Quality Review — Bornara AI
