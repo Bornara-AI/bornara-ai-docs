@@ -18,20 +18,19 @@ without burnout.
 
 ```text
 Day Job:      Mon-Fri 9:00 AM - 5:00 PM (40 hrs/week, remote)
-Kitchen Job:  Weekends (varies, ~16 hrs/week, ~$600 biweekly)
+Kitchen Job:  Sat & Sun 10:00 AM - 6:00 PM (16 hrs/week, ~$600 biweekly)
 ```
 
 **Available Weekly Hours (Realistic — With Kitchen Job):**
 
 ```text
-Weekday mornings (5 days × 1.5 hrs)  = 7.5 hrs
-Weekday evenings (5 days × 2.0 hrs)  = 10.0 hrs  (8:00-10:00 PM, cap for health)
-Weekend (kitchen job days)           = 0 hrs      (kitchen job consumes these)
-Weekend (non-kitchen days, ~1 day)   = 4 hrs
+Weekday mornings (5 days × 1.5 hrs)  = 7.5 hrs   (6:00–7:30 AM)
+Weekday evenings (5 days × 2.0 hrs)  = 10.0 hrs  (8:00–10:00 PM)
+Weekend late night (2 days × 2 hrs)  = 4.0 hrs   (after kitchen, ~8:00–10:00 PM)
 ────────────────────────────────────────────────
 Total Available:                       ~21.5 hrs/week
-Target Usage:                          15–18 hrs/week (sustainable)
-Buffer:                                3–6 hrs (rest, family, flexibility)
+Target Usage:                          17–20 hrs/week
+Buffer:                                1–4 hrs (rest, family, flexibility)
 ```
 
 **Available Weekly Hours (If Kitchen Job Dropped):**
@@ -88,27 +87,23 @@ The kitchen job provides ~$1,200/month ($14,400/year). Consider dropping it when
 | Thursday  | Marketing analytics, email campaigns                             |
 | Friday    | Admin: receipts, documentation, CRA logs                         |
 
-### Saturday — Production Day (If No Kitchen Shift)
+### Saturday — After Kitchen Shift (8:00–10:00 PM)
 
-*On kitchen-job Saturdays, skip this block entirely.*
-
-| Time          | Activity                                                    |
-|---------------|-------------------------------------------------------------|
-| 9:00–10:30 AM | Cookie baking (if orders pending)                           |
-| 10:30–12:00   | Content creation: product photos, videos                    |
-| 12:00–1:00 PM | Lunch break                                                 |
-| 2:00–4:00 PM  | Marketing: schedule posts, review ads, email drafts         |
-| 4:00–5:00 PM  | Consulting calls or AI platform work                        |
-
-### Sunday — Planning & Rest (If No Kitchen Shift)
-
-*On kitchen-job Sundays, do 1 hour of planning only (evening).*
+*Kitchen shift: 10 AM – 6 PM. Business work starts after rest.*
 
 | Time          | Activity                                                    |
 |---------------|-------------------------------------------------------------|
-| 10:00–11:30   | Weekly planning: review metrics, set priorities             |
-| 11:30–1:00    | Batch content creation for the week                         |
-| Rest of day   | Family time (important for sustainability)                  |
+| 8:00–9:00 PM  | Content creation or marketing (lighter tasks)               |
+| 9:00–10:00 PM | Admin, CRA logs, or AI platform work                        |
+
+### Sunday — After Kitchen Shift (8:00–10:00 PM)
+
+*Kitchen shift: 10 AM – 6 PM. Lighter session.*
+
+| Time          | Activity                                                    |
+|---------------|-------------------------------------------------------------|
+| 8:00–9:00 PM  | Weekly planning: review metrics, set priorities             |
+| 9:00–10:00 PM | Batch content creation for the week                         |
 
 ---
 

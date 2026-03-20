@@ -19,13 +19,15 @@
 | Name                   | Mahdi Moradi                                                  |
 | Location               | Calgary, Alberta, Canada                                      |
 | Day Job                | Full-stack engineer, ~$94,000/year salary (Ontario employer, remote) |
-| Weekend Job            | Kitchen work, ~$600 biweekly                                  |
+| Weekend Job            | Kitchen work, 10 AM–6 PM both Sat & Sun (~$600 biweekly)      |
 | Trade Name             | Bornara AI                                                    |
 | Business Type          | Sole Proprietorship (Canadian)                                |
 | Business Started       | 2025                                                          |
 | Business Description   | Technology consulting, AI solutions, website development, Shopify setup, digital services, e-commerce, food business |
 | Mortgage               | ~$470,000 (~$2,700/month payments)                            |
 | Other Debt             | ~$30,000                                                      |
+| Business Bank Account  | RBC (recently opened, dedicated to business)                  |
+| Personal LOC           | BMO, ~9–11% variable, up to $50K available                    |
 | Tax Filing             | Wealthsimple (T1 + T2125)                                    |
 | HST Registered         | No (not required until $30,000 revenue)                       |
 
@@ -83,12 +85,17 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 ## 6. 2025 Business History
 
 - Revenue: $0
-- Expenses: ~$245.70 (hosting/domain for charity website)
-- Projects: Charity website, MoviesCollage.com, Giftifye.com (planning), consulting friends
-- Wife: Performed real design/admin work, paid cash with signed receipt
+- Expenses: ~$245.70 (hosting/domain for charity website) + domain renewals (giftifye.com, etc.)
+- Projects: Charity website, MoviesCollage.com, Giftifye.com (planning/branding), consulting friends
+- Wife (Narjes) 2025 work: logo design, full brand identity, product research, supplier sourcing,
+  studying dropshipping and cookie recipes, design mockups
+- Wife 2025 payment: $1,500 cash (multiple payments, 1 hand-signed receipt covering all)
+- Udemy: 1-year subscription purchased (business education — paid from personal account)
+- Equipment purchased: None new (existing FMV items only)
 - Home office: Not claimed (used $500 employment deduction)
-- Net loss: ~$245.70 to $1,000-$4,000 (depending on what was included)
+- Net loss: ~$245.70 to ~$2,500 (depending on what is included)
 - Equipment FMV: Desktop $300, monitors $80, desk $100, printer $40
+- 2025 T2125: Not yet filed as of March 2026
 
 ## 7. Active Projects
 
@@ -100,6 +107,8 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 - Pricing: Cost x 3 = selling price; bundle margins 40-70%
 - Marketing: TikTok (primary), Instagram, Facebook, email (Klaviyo)
 - Wife handles: branding, photography, social media, customer service
+- **Status (March 2026):** Domains purchased, logos/branding complete (by Narjes in 2025),
+  Shopify store not yet built, Narjes studying dropshipping
 
 ### AI Agent Platform (SaaS)
 
@@ -148,10 +157,10 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 | Weekdays 6–7:30 AM   | AI platform development (deep work)                   |
 | Weekdays 9–5          | Day job (not available)                               |
 | Weekdays 8–10 PM     | Shopify, marketing, admin, consulting (2 hrs cap)     |
-| Weekend (no kitchen)  | 4 hrs: production, content, marketing (~1 day/week)   |
-| Weekend (kitchen day)  | Kitchen job — not available for business (~1 day/week) |
+| Sat & Sun 10 AM–6 PM | Kitchen job — not available for business              |
+| Sat & Sun 8–10 PM    | Business work after kitchen shift (2 hrs/day)         |
 
-**Mahdi total: ~15–18 hrs/week (with kitchen job) or ~20–25 hrs/week (without)**
+**Mahdi total: ~17–20 hrs/week (with kitchen job) or ~20–25 hrs/week (without)**
 **Narjes total: ~5–10 hrs/week**
 
 ## 10. Key Principles

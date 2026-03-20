@@ -160,10 +160,12 @@ documented for CRA compliance and operational clarity.
 |-------------------------|-------------------------------------------------------|-----------------|
 | Weekdays 6:00–7:30 AM  | AI platform development (deep work)                   | Every day       |
 | Weekdays 8:00–10:00 PM | Shopify, marketing, admin, consulting                 | 2 hrs/day cap   |
-| Weekend (no kitchen)    | 4 hrs: production, content, marketing                 | ~1 day/week     |
-| Weekend (kitchen days)  | 0 hrs — kitchen job                                   | ~1 day/week     |
+| Sat 10 AM–6 PM          | Kitchen job — not available                           | Every Saturday  |
+| Sat 8:00–10:00 PM      | Business: content, marketing, admin                   | After kitchen   |
+| Sun 10 AM–6 PM          | Kitchen job — not available                           | Every Sunday    |
+| Sun 8:00–10:00 PM      | Business: weekly planning, batch content              | After kitchen   |
 
-Total: ~15–18 hours/week (with kitchen job)
+Total: ~17–20 hours/week (with kitchen job)
 Total: ~20–25 hours/week (if kitchen job dropped)
 
 ### Narjes' Weekly Schedule

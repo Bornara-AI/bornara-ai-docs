@@ -108,6 +108,20 @@ year with documented investment in growth.
 | Camera            | $200–$500    | Class 8   | 20%  | ~$20–$50               |
 | Office furniture  | $300–$500    | Class 8   | 20%  | ~$30–$50               |
 
+**Status (March 2026):** No new equipment purchased yet. Purchases will be made
+as-needed when business activities require them. Budget is an estimate.
+
+**Secondhand / Used Equipment:**
+CRA accepts used equipment for CCA. What matters is the **actual purchase price** (not
+original retail). Required documentation for used items:
+
+- Receipt or bill of sale showing price paid, date, and seller
+- If from a private seller: written agreement with seller name, item description, price,
+  and date
+- If from online marketplace (Facebook, Kijiji): screenshot of listing + payment proof
+- Keep a photo of the item showing condition at purchase
+- CCA class and rate are the same whether new or used
+
 **CCA Note:** First-year rule applies 50% of the normal rate. Remaining value continues to be
 deducted in future years.
 

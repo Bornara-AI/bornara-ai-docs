@@ -125,12 +125,26 @@ Registered trade name "Bornara" — see
 | Item                  | Detail                                               |
 |-----------------------|------------------------------------------------------|
 | Revenue               | $0                                                    |
-| Expenses              | ~$245.70 (hosting/domain)                             |
-| Activities            | Charity website, domain registrations, planning       |
-| Equipment             | FMV of existing desktop, monitors, desk, printer      |
-| Wife's Work           | Real design and admin work, paid cash with receipt     |
+| Expenses              | ~$245.70 (hosting/domain) + domain renewals           |
+| Activities            | Charity website, domain registrations, Giftifye branding, consulting friends |
+| Narjes (Wife) Work    | Logo design, brand identity, product research, supplier sourcing, dropshipping study, cookie recipe study, design mockups |
+| Wife Payment          | $1,500 cash (multiple payments, 1 hand-signed receipt for all) |
+| Education             | Udemy 1-year subscription (paid from personal account)|
+| Equipment Purchased   | None new in 2025                                      |
+| Equipment (FMV)       | Desktop $300, monitors $80, desk $100, printer $40    |
 | Home Office           | Not claimed (used $500 employment deduction instead)  |
-| Net Loss              | ~$245.70                                              |
+| T2125 Status          | Not yet filed (as of March 2026)                      |
+| Estimated Net Loss    | ~$1,750–$2,500                                        |
+| Toronto Business Trip | Flight, Uber, food, short-term car rental (see note)  |
+
+**Toronto Trip Note:** In 2025, Mahdi traveled to Toronto to meet friends about
+potential business partnerships and consulting opportunities. No concrete deals
+resulted. Expenses include flight, Uber, food, and a short-term car rental (stayed
+with friends, no hotel). This trip is *potentially deductible* under CRA rules if the
+primary purpose was business exploration — see
+[CRA Compliance Guide](cra-compliance-guide.md) for travel deduction rules. Keep all
+receipts. Since no concrete business resulted, claim conservatively or consult an
+accountant before including.
 
 ---
 
@@ -141,12 +155,13 @@ Registered trade name "Bornara" — see
 | Item                        | Detail                                                    |
 |-----------------------------|-----------------------------------------------------------|
 | Source                      | Personal Line of Credit (LOC)                             |
+| Bank                         | BMO                                                       |
 | Maximum Available            | $50,000                                                   |
 | Maximum Business Draw        | $25,000 (hard cap for 2026)                               |
 | Draw Method                  | Gradual, as-needed — not a lump sum                       |
 | Interest                     | Paid by the business (100% deductible on T2125 Line 8710) |
-| LOC Interest Rate (est.)     | Prime + 1–3% (~7–9% as of 2026)                          |
-| Annual Interest Cost (est.)  | $500–$1,500 (depending on balance)                        |
+| LOC Interest Rate            | ~9–11% variable (BMO, as of March 2026)                   |
+| Annual Interest Cost (est.)  | $800–$2,000 (depending on balance)                        |
 
 ### How It Works
 
