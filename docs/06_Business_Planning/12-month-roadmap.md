@@ -64,18 +64,26 @@ streams. Each month includes specific tasks, milestones, expected costs, and rev
 **Revenue Target:** $0–$300
 **Expense Target:** $500–$800
 
+> **Status (March 19, 2026):** Q1 is partially complete. Equipment purchase, store build,
+> and soft launch tasks are behind schedule. See the
+> [April Action Plan](april-2026-action-plan.md) for a corrected 30-day sprint that
+> catches up on Q1 gaps and executes the most critical Q2 items.
+
 ---
 
 ## Q2: Launch & Test (April–June)
 
-### April — Official Launch
+### April — Catch-Up Sprint + Official Launch
 
 | Area              | Tasks                                                                   |
 |-------------------|-------------------------------------------------------------------------|
+| **CATCH-UP**      | Complete all incomplete Q1 items (see April Action Plan)                |
 | Giftifye          | Official store launch, Mother's Day collection prep                     |
 | AI Platform       | MVP development continues, 2 pre-built agents ready                     |
-| Cookies           | Launch cookie gift boxes online, local delivery available                 |
+| Cookies           | Confirm Calgary cottage food rules; launch only if legal                 |
 | Marketing         | Increase ad spend to $10–15/day, email marketing setup                   |
+| Finance           | First LOC draw (if needed), set up business bank account                |
+| Insurance         | Get CGL quote; purchase if first sale occurs                            |
 | Wife Tasks        | Branding updates, product photography, customer service                  |
 | Revenue Actions   | Mother's Day push (gifts + cookies combo)                                |
 

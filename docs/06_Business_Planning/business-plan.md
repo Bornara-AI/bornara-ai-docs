@@ -37,11 +37,11 @@ four integrated revenue streams:
 | Legal Name            | Mahdi Moradi                                                      |
 | Trade Name            | Bornara AI                                                        |
 | Business Type         | Sole Proprietorship (Canadian)                                    |
-| Province              | Ontario (assumed)                                                 |
+| Province              | Alberta (Calgary)                                                 |
 | Business Start Date   | 2025                                                              |
 | Tax Filing            | T2125 (Statement of Business Activities)                          |
 | HST Registration      | Not required until $30,000 revenue threshold                      |
-| Incorporation         | Planned when profit exceeds ~$80,000/year                         |
+| Incorporation         | Planned at the start of the first fiscal year with proven income (see Section 5a) |
 
 ### Trade Name Registration
 
@@ -134,6 +134,119 @@ Registered trade name "Bornara" — see
 
 ---
 
+## 4a. Personal Financial Buffer & Funding Plan
+
+### Funding Source
+
+| Item                        | Detail                                                    |
+|-----------------------------|-----------------------------------------------------------|
+| Source                      | Personal Line of Credit (LOC)                             |
+| Maximum Available            | $50,000                                                   |
+| Maximum Business Draw        | $25,000 (hard cap for 2026)                               |
+| Draw Method                  | Gradual, as-needed — not a lump sum                       |
+| Interest                     | Paid by the business (100% deductible on T2125 Line 8710) |
+| LOC Interest Rate (est.)     | Prime + 1–3% (~7–9% as of 2026)                          |
+| Annual Interest Cost (est.)  | $500–$1,500 (depending on balance)                        |
+
+### How It Works
+
+1. **Transfer funds from personal LOC to a dedicated business bank account** as expenses arise
+2. **Each draw is documented** with: date, amount, purpose, and running balance
+3. **Business pays the interest** — tracked as a deductible expense (T2125 Line 8710)
+4. **Principal repayment** comes from business revenue once profitable
+5. **Never exceed $25,000 outstanding** in 2026 — reassess at year-end
+
+### Required Documentation (CRA)
+
+- [ ] LOC statement showing each draw (date, amount)
+- [ ] Business bank account showing corresponding deposit
+- [ ] Written log: date, amount drawn, business purpose
+- [ ] Interest statements from bank (monthly or annual)
+- [ ] Loan agreement / LOC terms (keep on file)
+- [ ] Separation record showing personal vs. business use of LOC
+
+### Quarterly Draw Budget (2026 Estimate)
+
+| Quarter | Estimated Draw | Cumulative | Purpose                                     |
+|---------|----------------|------------|---------------------------------------------|
+| Q1      | $3,000–$5,000  | $3K–$5K    | Equipment, Shopify setup, software           |
+| Q2      | $2,000–$4,000  | $5K–$9K    | Advertising, wife's wages, inventory         |
+| Q3      | $2,000–$4,000  | $7K–$13K   | Scaling ads, brother contractor, platform    |
+| Q4      | $3,000–$5,000  | $10K–$18K  | Holiday push, peak ad spend, year-end wages  |
+
+### CRA Rules for LOC Interest Deduction
+
+- Interest on money borrowed **for business purposes** is deductible (Income Tax Act s. 20(1)(c))
+- **Must trace each draw to a business expense** — mixed-use loans lose deductibility
+- Keep the LOC dedicated to business draws only (do not use for personal expenses)
+- If audited, CRA will ask: "What was this money used for?" — your log answers that
+
+### Risk Controls
+
+| Risk                          | Mitigation                                            |
+|-------------------------------|-------------------------------------------------------|
+| Over-borrowing                | Hard $25K cap; monthly balance review                 |
+| Mixed personal/business use   | Dedicated draws with documented purpose only          |
+| Interest exceeds budget       | Draw conservatively; pay down from revenue             |
+| Business fails to repay       | LOC remains personal liability; day job covers it     |
+| CRA questions deductibility   | Full paper trail: draw log + bank statements + purpose |
+
+---
+
+## 4b. Insurance Plan
+
+### Current Status
+
+No business insurance is required or recommended until the business has active revenue,
+customer-facing operations, or physical product shipments. Insurance should be activated
+**at the point of first customer interaction**, not at business registration.
+
+### Phased Insurance Approach
+
+| Phase | Trigger                                        | Insurance Type              | Est. Cost    |
+|-------|------------------------------------------------|-----------------------------|--------------|
+| 0     | Now (planning/development)                     | None required               | $0           |
+| 1     | First Shopify sale (Giftifye or cookies)       | General Liability (CGL)     | $300–$500/yr |
+| 2     | First food product shipped                     | Product Liability add-on    | +$100–$300/yr|
+| 3     | First consulting client (paid)                 | Professional Liability/E&O  | $400–$800/yr |
+| 4     | AI platform public launch (paid users)         | Cyber Liability / Tech E&O  | $500–$1,200/yr|
+
+### How Business Insurance Works
+
+- **CGL (Commercial General Liability):** Covers third-party injury or property damage
+  claims. Purchased as an annual policy — covers the whole business, not per-project.
+- **Product Liability:** Add-on to CGL for physical products (gifts, cookies). Covers
+  claims if a product causes harm (e.g., food allergy from cookies).
+- **Professional Liability / E&O:** Covers claims of negligence, errors, or bad advice
+  in consulting/services. Annual policy. Some clients may require proof of E&O.
+- **Cyber Liability:** Covers data breaches, system failures for the SaaS platform.
+  Not needed until you have paying users storing data.
+
+### Insurance Budget (2026)
+
+| Scenario             | When           | Annual Cost   |
+|----------------------|----------------|---------------|
+| No sales yet         | Now–Q1         | $0            |
+| Shopify sales begin  | Q2             | $300–$500     |
+| + Cookie shipping    | Q2–Q3          | $400–$800     |
+| + Consulting active  | As needed      | +$400–$800    |
+| Full coverage (all)  | Q3–Q4          | $800–$1,500   |
+
+**All insurance premiums are 100% deductible on T2125 (Line 8690).**
+
+### Recommended Providers (Alberta)
+
+- **Zensurance** — Online small business insurance, quick quotes
+- **NEXT Insurance** — Designed for small/solo businesses
+- **Wawanesa** — Canadian, good for home-based businesses
+- **Intact Insurance** — Major Canadian provider
+
+### Action
+
+Do not purchase insurance until Phase 1 trigger. Budget $500–$1,000 for 2026.
+
+---
+
 ## 5. Five-Year Vision (2026–2030)
 
 ### Year 1 — 2026: Foundation & Launch
@@ -166,7 +279,7 @@ Registered trade name "Bornara" — see
 ### Year 4 — 2029: Expansion
 
 - Revenue: $80,000–$150,000
-- **Incorporate** (Bornara AI Inc.)
+- **Incorporate** (Bornara AI Inc.) — see Section 5a below
 - Expand team (contractors, part-time staff)
 - AI platform enterprise features
 - Multiple Shopify stores or brands
@@ -180,6 +293,80 @@ Registered trade name "Bornara" — see
 - Franchise or license cookie business model
 - Potential investment or acquisition opportunities
 - Target: Net profit $60,000–$100,000
+
+### 5a. Incorporation Decision Framework
+
+| Decision Factor               | Rule                                                    |
+|-------------------------------|----------------------------------------------------------|
+| When to incorporate           | January 1 of the first year where prior-year net profit ≥ $50K |
+| Why January 1                 | Avoids mid-year complexity (two T2125 filings, stub periods) |
+| Accountant consultation       | Required 3–6 months before incorporation date            |
+| Trigger monitoring            | Review annually at year-end (December)                   |
+| Current status                | Not required — no net profit yet                         |
+
+**Decision process:**
+
+1. At year-end 2027 (and each year after), review actual net profit
+2. If profit exceeds $50K, consult accountant in Q1 of the following year
+3. If accountant confirms benefit, incorporate effective January 1 of the *next* year
+4. Example: 2028 profit = $60K → consult accountant Q1 2029 → incorporate Jan 1, 2029 or
+   Jan 1, 2030
+
+This is not urgent — the business has no profit yet. The framework is here so the trigger
+is documented and not missed.
+
+---
+
+## 5b. CRA Reasonable Expectation of Profit (REOP)
+
+CRA uses the REOP test to determine if a business is legitimate or a hobby used for tax
+deductions. This is critical because Bornara AI shows losses in 2025 and expects losses in
+2026.
+
+### The CRA Position
+
+- There is **no fixed 5-year rule** in Canadian tax law. The "5-year" idea is a common
+  misconception. CRA can challenge business losses at any time.
+- However, CRA generally **allows year-1 and year-2 losses** for legitimate startups if
+  there is a documented growth plan and evidence of business activity.
+- The key test is: **"Does this business have a reasonable expectation of profit?"**
+- CRA looks at: business plan, time invested, revenue trajectory, and whether the owner
+  is taking steps to become profitable.
+
+### Year-by-Year REOP Strategy
+
+| Year | Revenue | Loss    | REOP Defence                                               |
+|------|---------|---------|------------------------------------------------------------|
+| 2025 | $0      | <$3,000 | Startup year: domain, hosting, planning. Minimal deductions.|
+| 2026 | $5K–$8K | $10K–$20K | First full year: 4 streams launched, real revenue, growth. |
+| 2027 | $23K–$53K | Break even | Revenue growth demonstrates profit trajectory.          |
+| 2028 | $85K    | Profit  | Profitable — REOP question is resolved.                     |
+
+### 2025 Filing Strategy
+
+**Context:** 2025 had $0 revenue and minimal activity. Deductions claimed should be
+conservative to avoid wasting the early-year goodwill CRA extends to startups.
+
+| 2025 Deduction             | Recommended Amount | Notes                            |
+|----------------------------|--------------------|----------------------------------|
+| Hosting/domains            | ~$245.70           | Actual receipted expenses         |
+| Wife's wages               | $500–$1,500        | Only if documented with receipts |
+| Equipment FMV (CCA start)  | $520 (Year 1 CCA)  | Half-year rule on $520 FMV items |
+| Home office                | $0                 | Used $500 employment deduction   |
+| **Total 2025 deductions**  | **$750–$2,300**    | Keep under $3,000 as planned     |
+
+**Important:** Do NOT inflate 2025 deductions. A <$3,000 loss with $0 revenue is
+perfectly normal for a startup year and will not raise CRA flags. The real REOP
+evidence comes from 2026 — having revenue, multiple active streams, and a growth plan.
+
+### Evidence to Maintain for REOP Defence
+
+- [ ] Documented business plan (this repository)
+- [ ] Time logs showing 15–20+ hours/week of business activity
+- [ ] Revenue from multiple streams (even small amounts)
+- [ ] Marketing spend and customer acquisition efforts
+- [ ] Website/store as evidence of real operations
+- [ ] Year-over-year revenue growth (2025 → 2026 → 2027)
 
 ---
 

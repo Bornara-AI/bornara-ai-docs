@@ -238,7 +238,9 @@ Typical range: 10–15%
 | Meals (50%)           | $200           | $500           |
 | Cookie expenses       | $400           | $1,000         |
 | Courses/training      | $100           | $500           |
-| **TOTAL**             | **$13,600**    | **$33,000**    |
+| LOC interest          | $500           | $1,500         |
+| Insurance             | $0             | $1,500         |
+| **TOTAL**             | **$14,600**    | **$36,000**    |
 
 ---
 
@@ -284,6 +286,11 @@ Typical range: 10–15%
 | Profit = $50,000–$80,000   | Evaluate incorporation                            |
 | Profit > $80,000/year      | Incorporate (small business tax rate advantage)    |
 | Liability concerns         | Incorporate earlier for legal protection           |
+
+**When to incorporate:** January 1 of the first year where the prior year showed ≥$50K
+net profit. This avoids mid-year stub periods and dual filing. Consult an accountant
+3–6 months before the target date. See [Business Plan Section 5a](business-plan.md)
+for the detailed decision framework.
 
 ---
 

@@ -59,6 +59,8 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 | Total Deductions      | $13,600-$33,000                                        |
 | Expected Net Loss     | $10,000-$20,000                                        |
 | Estimated Tax Savings | $3,000-$8,000                                          |
+| Funding Source        | Personal LOC (max $25K draw in 2026)                   |
+| Insurance Budget      | $0-$1,500 (phased with revenue triggers)               |
 
 ## 5. Key Deduction Categories
 
@@ -75,6 +77,8 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 | Travel/vehicle        | $500-$1,500         |
 | Meals (50%)           | $200-$500           |
 | Cookie supplies       | $400-$1,000         |
+| LOC interest          | $500-$1,500         |
+| Insurance             | $0-$1,500           |
 
 ## 6. 2025 Business History
 
@@ -141,11 +145,14 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 
 | Slot                  | Activity                                              |
 |-----------------------|-------------------------------------------------------|
-| Weekdays 6-7:30 AM   | AI platform development (deep work)                   |
-| Weekdays 9-5          | Day job (not available)                               |
-| Weekdays 8-10:30 PM  | Shopify, marketing, admin, consulting                 |
-| Saturday 9 AM-5 PM   | Production day (baking, content, coding, marketing)   |
-| Sunday 10 AM-2 PM    | Planning, batch content, family time                  |
+| Weekdays 6–7:30 AM   | AI platform development (deep work)                   |
+| Weekdays 9–5          | Day job (not available)                               |
+| Weekdays 8–10 PM     | Shopify, marketing, admin, consulting (2 hrs cap)     |
+| Weekend (no kitchen)  | 4 hrs: production, content, marketing (~1 day/week)   |
+| Weekend (kitchen day)  | Kitchen job — not available for business (~1 day/week) |
+
+**Mahdi total: ~15–18 hrs/week (with kitchen job) or ~20–25 hrs/week (without)**
+**Narjes total: ~5–10 hrs/week**
 
 ## 10. Key Principles
 
