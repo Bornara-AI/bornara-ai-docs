@@ -69,7 +69,7 @@ documented for CRA compliance and operational clarity.
 - Task log entries in business activity log
 
 **Justification Letter:** See
-[Narjes Justification Letter](../../files/CRA-proof%20documentation/Narjes%20justification%20letter.docx)
+[Narjes Justification Letter](narjes-justification-letter.md)
 
 ### 2.3 Children — Light Tasks
 

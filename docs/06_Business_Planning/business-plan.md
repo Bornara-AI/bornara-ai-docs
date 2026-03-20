@@ -46,7 +46,7 @@ four integrated revenue streams:
 ### Trade Name Registration
 
 Registered trade name "Bornara" — see
-[Trade Name Declaration](../../files/Copy%20of%20Bornara-Trade-Name-Declaration.pdf)
+[Trade Name Declaration](trade-name-declaration.md)
 
 ---
 
