@@ -33,7 +33,7 @@
   "devDependencies": {
     "glob": "^10.3.10",
     "husky": "^9.0.11",
-    "lint-staged": "^15.2.10",
+    "lint-staged": "^16.4.0",
     "markdownlint-cli2": "^0.21.0"
   },
   "lint-staged": {
