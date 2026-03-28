@@ -35,7 +35,9 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v44
+        # Pinned to SHA of v44 — prevents supply-chain compromise (tj-actions incident, Mar 2025)
+        # To update: check https://github.com/tj-actions/changed-files/releases and update SHA
+        uses: tj-actions/changed-files@2d756ea4c53f7f6b397767d8723b3a10a9f35bf2
         with:
           files: |
             docs/**/*.md

@@ -108,6 +108,20 @@ year with documented investment in growth.
 | Camera            | $200–$500    | Class 8   | 20%  | ~$20–$50               |
 | Office furniture  | $300–$500    | Class 8   | 20%  | ~$30–$50               |
 
+**Status (March 2026):** No new equipment purchased yet. Purchases will be made
+as-needed when business activities require them. Budget is an estimate.
+
+**Secondhand / Used Equipment:**
+CRA accepts used equipment for CCA. What matters is the **actual purchase price** (not
+original retail). Required documentation for used items:
+
+- Receipt or bill of sale showing price paid, date, and seller
+- If from a private seller: written agreement with seller name, item description, price,
+  and date
+- If from online marketplace (Facebook, Kijiji): screenshot of listing + payment proof
+- Keep a photo of the item showing condition at purchase
+- CCA class and rate are the same whether new or used
+
 **CCA Note:** First-year rule applies 50% of the normal rate. Remaining value continues to be
 deducted in future years.
 
@@ -238,7 +252,9 @@ Typical range: 10–15%
 | Meals (50%)           | $200           | $500           |
 | Cookie expenses       | $400           | $1,000         |
 | Courses/training      | $100           | $500           |
-| **TOTAL**             | **$13,600**    | **$33,000**    |
+| LOC interest          | $500           | $1,500         |
+| Insurance             | $0             | $1,500         |
+| **TOTAL**             | **$14,600**    | **$36,000**    |
 
 ---
 
@@ -284,6 +300,11 @@ Typical range: 10–15%
 | Profit = $50,000–$80,000   | Evaluate incorporation                            |
 | Profit > $80,000/year      | Incorporate (small business tax rate advantage)    |
 | Liability concerns         | Incorporate earlier for legal protection           |
+
+**When to incorporate:** January 1 of the first year where the prior year showed ≥$50K
+net profit. This avoids mid-year stub periods and dual filing. Consult an accountant
+3–6 months before the target date. See [Business Plan Section 5a](business-plan.md)
+for the detailed decision framework.
 
 ---
 

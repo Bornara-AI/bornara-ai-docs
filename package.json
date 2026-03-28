@@ -10,6 +10,8 @@
     "lint:md": "markdownlint-cli2 \"docs/**/*.md\"",
     "lint:md:fix": "markdownlint-cli2 --fix \"docs/**/*.md\"",
     "lint:project": "markdownlint-cli2 \"docs/05_Projects/$PROJECT/**/*.md\"",
+    "doc:fix": "node scripts/doc-autofix.js",
+    "doc:fix:staged": "node scripts/doc-autofix.js --staged",
     "check:readme": "node scripts/check-readme.js",
     "check:cross-refs": "node scripts/validate-cross-refs.js",
     "project:create": "node scripts/create-new-project.js",
@@ -35,6 +37,9 @@
     "markdownlint-cli2": "^0.21.0"
   },
   "lint-staged": {
-    "docs/**/*.md": "markdownlint-cli2"
+    "docs/**/*.md": [
+      "markdownlint-cli2 --fix",
+      "markdownlint-cli2"
+    ]
   }
 }

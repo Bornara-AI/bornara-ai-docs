@@ -69,7 +69,7 @@ documented for CRA compliance and operational clarity.
 - Task log entries in business activity log
 
 **Justification Letter:** See
-[Narjes Justification Letter](../../files/CRA-proof%20documentation/Narjes%20justification%20letter.docx)
+[Narjes Justification Letter](narjes-justification-letter.md)
 
 ### 2.3 Children — Light Tasks
 
@@ -154,18 +154,19 @@ documented for CRA compliance and operational clarity.
 
 ## 3. Time Allocation (Weekly)
 
-### Mahdi's Weekly Schedule (Outside 9-5)
+### Mahdi's Weekly Schedule (Outside 9-5 + Kitchen Job)
 
-| Time Slot               | Activity                                              |
-|-------------------------|-------------------------------------------------------|
-| Weekdays 6:00-7:30 AM  | AI platform development                               |
-| Weekdays 8:00-9:30 PM  | Shopify management, marketing, consulting              |
-| Weekdays 9:30-10:30 PM | Admin, documentation, planning                         |
-| Saturday 9 AM-1 PM     | Cookie baking / content creation / deep work           |
-| Saturday 2-5 PM        | Marketing, ads review, email                           |
-| Sunday 10 AM-2 PM      | Week planning, batch content creation                  |
+| Time Slot               | Activity                                              | Notes           |
+|-------------------------|-------------------------------------------------------|-----------------|
+| Weekdays 6:00–7:30 AM  | AI platform development (deep work)                   | Every day       |
+| Weekdays 8:00–10:00 PM | Shopify, marketing, admin, consulting                 | 2 hrs/day cap   |
+| Sat 10 AM–6 PM          | Kitchen job — not available                           | Every Saturday  |
+| Sat 8:00–10:00 PM      | Business: content, marketing, admin                   | After kitchen   |
+| Sun 10 AM–6 PM          | Kitchen job — not available                           | Every Sunday    |
+| Sun 8:00–10:00 PM      | Business: weekly planning, batch content              | After kitchen   |
 
-Total: ~15-20 hours/week
+Total: ~17–20 hours/week (with kitchen job)
+Total: ~20–25 hours/week (if kitchen job dropped)
 
 ### Narjes' Weekly Schedule
 

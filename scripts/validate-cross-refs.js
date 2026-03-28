@@ -7,7 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const glob = require('glob');
+const { globSync } = require('glob');
 
 const colors = {
     reset: '\x1b[0m',
@@ -22,14 +22,27 @@ function log(message, color = 'reset') {
 }
 
 /**
+ * Strip fenced code blocks from markdown content so links inside
+ * code examples are not treated as real cross-references.
+ * Replaces code block bodies with blank lines to preserve line numbering.
+ */
+function stripCodeBlocks(content) {
+    return content.replace(/^(`{3,})[^\n]*\n[\s\S]*?^\1\s*$/gm, (match) => {
+        // Keep the same number of newlines so line counts stay accurate
+        return match.replace(/[^\n]/g, '');
+    });
+}
+
+/**
  * Extract markdown links from file content
  */
 function extractLinks(content, filePath) {
+    const safeContent = stripCodeBlocks(content);
     const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
     const links = [];
     let match;
 
-    while ((match = linkRegex.exec(content)) !== null) {
+    while ((match = linkRegex.exec(safeContent)) !== null) {
         const [fullMatch, text, url] = match;
 
         // Only process relative markdown links
@@ -37,7 +50,7 @@ function extractLinks(content, filePath) {
             links.push({
                 text,
                 url,
-                line: content.substring(0, match.index).split('\n').length,
+                line: safeContent.substring(0, match.index).split('\n').length,
             });
         }
     }
@@ -60,11 +73,11 @@ function resolveLink(fromFile, linkUrl) {
 }
 
 /**
- * Check if file exists
+ * Check if file or directory exists
  */
 function fileExists(filePath) {
     try {
-        return fs.existsSync(filePath) && fs.statSync(filePath).isFile();
+        return fs.existsSync(filePath);
     } catch {
         return false;
     }
@@ -78,7 +91,7 @@ function validateCrossReferences() {
     log('━'.repeat(60), 'cyan');
 
     // Find all markdown files
-    const files = glob.sync('docs/**/*.md', {
+    const files = globSync('docs/**/*.md', {
         ignore: ['**/node_modules/**', '**/_template.md'],
     });
 
@@ -89,7 +102,13 @@ function validateCrossReferences() {
     let totalLinks = 0;
 
     for (const file of files) {
-        const content = fs.readFileSync(file, 'utf-8');
+        let content;
+        try {
+            content = fs.readFileSync(file, 'utf-8');
+        } catch (err) {
+            warnings.push({ file, line: 0, issue: `Could not read file: ${err.message}`, url: '' });
+            continue;
+        }
         const links = extractLinks(content, file);
         totalLinks += links.length;
 
@@ -118,7 +137,11 @@ function validateCrossReferences() {
                 });
             }
 
-            if (!link.url.endsWith('.md') && !link.url.includes('#')) {
+            // Warn about missing .md only for links that look like they should be markdown
+            // Skip: directory links (ending in /), non-md files (.pdf, .xlsx, .docx, etc.)
+            const hasExtension = /\.[a-zA-Z0-9]+$/.test(link.url.split('#')[0]);
+            const isDirectoryLink = link.url.endsWith('/');
+            if (!link.url.endsWith('.md') && !link.url.includes('#') && !hasExtension && !isDirectoryLink) {
                 warnings.push({
                     file,
                     line: link.line,

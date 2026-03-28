@@ -12,7 +12,7 @@
 
 This guide defines every deductible expense category, how to record it, and what proof CRA
 requires. Use this alongside the
-[Excel Tracking Spreadsheet](../../files/Excel/2026%20Logs.xlsx) and the
+[2026 Expense Log](2026-expense-log.md) and the
 [CRA Compliance Guide](cra-compliance-guide.md).
 
 ---

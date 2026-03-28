@@ -158,12 +158,33 @@ business streams. Use this alongside the [12-Month Roadmap](12-month-roadmap.md)
 
 ### Cookie Business Startup Steps
 
-1. **Legal Requirements (CRITICAL):**
-   - Research your municipality's cottage food / home bakery laws
-   - Ontario: Check "Home-Based Food Business" rules under local public health unit
-   - May need: Food Handler Certificate, home kitchen inspection, or business permit
-   - Some municipalities allow "low-risk" baked goods (cookies qualify) under cottage food rules
-   - **Action:** Call your local public health unit before selling
+1. **Legal Requirements (CRITICAL — Alberta/Calgary):**
+
+   **Status (March 2026):** Not yet started. Steps below must be completed before sales.
+
+   Alberta does NOT have a blanket cottage food exemption like some US states.
+
+   - **Alberta's Public Health Act** requires food businesses to meet safety standards
+   - **Calgary's food safety bylaw** requires a valid food handling permit
+   - **Alberta Health Services (AHS)** is the authority — not the City of Calgary
+
+   **Step-by-step legal process:**
+
+   | Step | Action | Contact | Est. Cost | Timeline |
+   |------|--------|---------|-----------|----------|
+   | 1 | Call AHS Calgary re: home-based food business rules | 403-943-2288 (AHS Environmental Public Health) | Free | This week |
+   | 2 | Ask: "Can I sell baked cookies from my home in Calgary?" | Same call | Free | Same |
+   | 3 | If yes: ask what permits/certifications are required | Same call | Free | Same |
+   | 4 | Get Food Handler Certificate (if required) | AHS-approved online course | $30–$100 | 1–2 weeks |
+   | 5 | Apply for home-based food business permit (if required) | AHS Calgary | $50–$200 | 2–4 weeks |
+   | 6 | Home kitchen inspection (if required) | AHS inspector visit | Included | Scheduled by AHS |
+   | 7 | Labelling: ingredients, allergens, business name, address | Self | $20–$50 | 1 week |
+
+   **Decision gate:** See [April Action Plan](april-2026-action-plan.md) — go/no-go
+   by April 25, 2026. Record the AHS representative name, date, and answer here.
+
+   - **If approved:** Proceed with recipe development and Shopify setup
+   - **If not permitted:** Drop cookies from 2026, reallocate hours to Giftifye
 
 2. **Recipe Development:**
    - Perfect 3-5 core cookie recipes

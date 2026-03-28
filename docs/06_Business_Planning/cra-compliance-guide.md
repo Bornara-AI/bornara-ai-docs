@@ -64,11 +64,21 @@ physical copies where applicable:
 │     └── Parking receipts
 ├── 8. Business Activity Logs/
 │     └── Weekly activity logs
-└── 9. Project Files/
-      ├── Giftifye.com evidence
-      ├── Cookie business evidence
-      ├── AI platform development evidence
-      └── Consulting records
+├── 9. Project Files/
+│     ├── Giftifye.com evidence
+│     ├── Cookie business evidence
+│     ├── AI platform development evidence
+│     └── Consulting records
+├── 10. LOC Funding/
+│     ├── LOC terms and conditions
+│     ├── Monthly LOC statements/
+│     ├── Monthly business account statements/
+│     ├── Draw transfer screenshots/
+│     └── Annual interest summary
+└── 11. Physical Documents/
+      ├── Wife's 2025 signed receipt ($1,500)
+      ├── Trade name declaration
+      └── Any hand-signed receipts or contracts
 ```
 
 ---

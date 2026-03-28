@@ -10,21 +10,54 @@
 
 ## 1. The Challenge
 
-You work a full-time 9-5 job. All business activities must happen outside work hours. This plan
-ensures maximum productivity without burnout.
+You work a full-time 9-5 job and a part-time weekend kitchen job (~$600 biweekly). All
+business activities must happen outside both jobs. This plan ensures maximum productivity
+without burnout.
 
-**Available Weekly Hours:**
+**Current Employment Commitments:**
 
 ```text
-Weekday mornings (5 days × 1.5 hrs) = 7.5 hrs
-Weekday evenings (5 days × 2.5 hrs) = 12.5 hrs
-Saturday                              = 6-8 hrs
-Sunday                                = 3-4 hrs
-────────────────────────────────────────────────
-Total Available:                       29-32 hrs/week
-Target Usage:                          15-20 hrs/week (sustainable)
-Buffer:                                10-12 hrs (rest, family, flexibility)
+Day Job:      Mon-Fri 9:00 AM - 5:00 PM (40 hrs/week, remote)
+Kitchen Job:  Sat & Sun 10:00 AM - 6:00 PM (16 hrs/week, ~$600 biweekly)
 ```
+
+**Available Weekly Hours (Realistic — With Kitchen Job):**
+
+```text
+Weekday mornings (5 days × 1.5 hrs)  = 7.5 hrs   (6:00–7:30 AM)
+Weekday evenings (5 days × 2.0 hrs)  = 10.0 hrs  (8:00–10:00 PM)
+Weekend late night (2 days × 2 hrs)  = 4.0 hrs   (after kitchen, ~8:00–10:00 PM)
+────────────────────────────────────────────────
+Total Available:                       ~21.5 hrs/week
+Target Usage:                          17–20 hrs/week
+Buffer:                                1–4 hrs (rest, family, flexibility)
+```
+
+**Available Weekly Hours (If Kitchen Job Dropped):**
+
+```text
+Weekday mornings (5 days × 1.5 hrs)  = 7.5 hrs
+Weekday evenings (5 days × 2.0 hrs)  = 10.0 hrs
+Saturday                              = 6–8 hrs
+Sunday                                = 3–4 hrs
+────────────────────────────────────────────────
+Total Available:                       27–30 hrs/week
+Target Usage:                          20–25 hrs/week
+Buffer:                                5–7 hrs (rest, family)
+```
+
+**Wife's contribution (5–10 hrs/week) adds to total business capacity.**
+
+### Kitchen Job Decision Point
+
+The kitchen job provides ~$1,200/month ($14,400/year). Consider dropping it when:
+
+| Trigger                                    | Action                              |
+|--------------------------------------------|-------------------------------------|
+| Business revenue exceeds $1,200/month       | Drop kitchen job, reallocate hours  |
+| Business needs >25 hrs/week consistently    | Drop kitchen job for capacity       |
+| Burnout risk is high                        | Drop kitchen job for health         |
+| Q3 2026 holiday prep requires full weekends | Evaluate dropping by September      |
 
 ---
 
@@ -54,37 +87,37 @@ Buffer:                                10-12 hrs (rest, family, flexibility)
 | Thursday  | Marketing analytics, email campaigns                             |
 | Friday    | Admin: receipts, documentation, CRA logs                         |
 
-### Saturday — Production Day
+### Saturday — After Kitchen Shift (8:00–10:00 PM)
+
+*Kitchen shift: 10 AM – 6 PM. Business work starts after rest.*
 
 | Time          | Activity                                                    |
 |---------------|-------------------------------------------------------------|
-| 9:00–10:30 AM | Cookie baking (if orders pending)                           |
-| 10:30–12:00   | Content creation: product photos, videos                    |
-| 12:00–1:00 PM | Lunch break                                                 |
-| 2:00–4:00 PM  | Marketing: schedule posts, review ads, email drafts         |
-| 4:00–5:00 PM  | Consulting calls or AI platform work                        |
+| 8:00–9:00 PM  | Content creation or marketing (lighter tasks)               |
+| 9:00–10:00 PM | Admin, CRA logs, or AI platform work                        |
 
-### Sunday — Planning & Rest
+### Sunday — After Kitchen Shift (8:00–10:00 PM)
+
+*Kitchen shift: 10 AM – 6 PM. Lighter session.*
 
 | Time          | Activity                                                    |
 |---------------|-------------------------------------------------------------|
-| 10:00–11:30   | Weekly planning: review metrics, set priorities             |
-| 11:30–1:00    | Batch content creation for the week                         |
-| Rest of day   | Family time (important for sustainability)                  |
+| 8:00–9:00 PM  | Weekly planning: review metrics, set priorities             |
+| 9:00–10:00 PM | Batch content creation for the week                         |
 
 ---
 
 ## 3. Monthly Time Distribution
 
-| Activity                    | Hours/Month | % of Time |
-|-----------------------------|-------------|-----------|
-| AI Platform Development     | 25-30       | 35-40%    |
-| Shopify Management          | 10-15       | 15-20%    |
-| Marketing & Content         | 10-15       | 15-20%    |
-| Cookie Business             | 5-8         | 8-10%     |
-| Consulting                  | 5-8         | 8-10%     |
-| Admin & Documentation       | 5-8         | 8-10%     |
-| **Total**                   | **60-80**   | **100%**  |
+| Activity                    | Hours/Month (with kitchen job) | Hours/Month (no kitchen job) | % of Time |
+|-----------------------------|-------------------------------|------------------------------|-----------||
+| AI Platform Development     | 18–22                         | 25–30                        | 35–40%    |
+| Shopify Management          | 8–12                          | 10–15                        | 15–20%    |
+| Marketing & Content         | 8–12                          | 10–15                        | 15–20%    |
+| Cookie Business             | 3–5                           | 5–8                          | 8–10%     |
+| Consulting                  | 4–6                           | 5–8                          | 8–10%     |
+| Admin & Documentation       | 4–6                           | 5–8                          | 8–10%     |
+| **Total**                   | **45–63**                      | **60–80**                     | **100%**  |
 
 ---
 

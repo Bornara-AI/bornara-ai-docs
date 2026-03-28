@@ -19,13 +19,15 @@
 | Name                   | Mahdi Moradi                                                  |
 | Location               | Calgary, Alberta, Canada                                      |
 | Day Job                | Full-stack engineer, ~$94,000/year salary (Ontario employer, remote) |
-| Weekend Job            | Kitchen work, ~$600 biweekly                                  |
+| Weekend Job            | Kitchen work, 10 AM–6 PM both Sat & Sun (~$600 biweekly)      |
 | Trade Name             | Bornara AI                                                    |
 | Business Type          | Sole Proprietorship (Canadian)                                |
 | Business Started       | 2025                                                          |
 | Business Description   | Technology consulting, AI solutions, website development, Shopify setup, digital services, e-commerce, food business |
 | Mortgage               | ~$470,000 (~$2,700/month payments)                            |
 | Other Debt             | ~$30,000                                                      |
+| Business Bank Account  | RBC (recently opened, dedicated to business)                  |
+| Personal LOC           | BMO, ~9–11% variable, up to $50K available                    |
 | Tax Filing             | Wealthsimple (T1 + T2125)                                    |
 | HST Registered         | No (not required until $30,000 revenue)                       |
 
@@ -59,6 +61,8 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 | Total Deductions      | $13,600-$33,000                                        |
 | Expected Net Loss     | $10,000-$20,000                                        |
 | Estimated Tax Savings | $3,000-$8,000                                          |
+| Funding Source        | Personal LOC (max $25K draw in 2026)                   |
+| Insurance Budget      | $0-$1,500 (phased with revenue triggers)               |
 
 ## 5. Key Deduction Categories
 
@@ -75,16 +79,23 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 | Travel/vehicle        | $500-$1,500         |
 | Meals (50%)           | $200-$500           |
 | Cookie supplies       | $400-$1,000         |
+| LOC interest          | $500-$1,500         |
+| Insurance             | $0-$1,500           |
 
 ## 6. 2025 Business History
 
 - Revenue: $0
-- Expenses: ~$245.70 (hosting/domain for charity website)
-- Projects: Charity website, MoviesCollage.com, Giftifye.com (planning), consulting friends
-- Wife: Performed real design/admin work, paid cash with signed receipt
+- Expenses: ~$245.70 (hosting/domain for charity website) + domain renewals (giftifye.com, etc.)
+- Projects: Charity website, MoviesCollage.com, Giftifye.com (planning/branding), consulting friends
+- Wife (Narjes) 2025 work: logo design, full brand identity, product research, supplier sourcing,
+  studying dropshipping and cookie recipes, design mockups
+- Wife 2025 payment: $1,500 cash (multiple payments, 1 hand-signed receipt covering all)
+- Udemy: 1-year subscription purchased (business education — paid from personal account)
+- Equipment purchased: None new (existing FMV items only)
 - Home office: Not claimed (used $500 employment deduction)
-- Net loss: ~$245.70 to $1,000-$4,000 (depending on what was included)
+- Net loss: ~$245.70 to ~$2,500 (depending on what is included)
 - Equipment FMV: Desktop $300, monitors $80, desk $100, printer $40
+- 2025 T2125: Not yet filed as of March 2026
 
 ## 7. Active Projects
 
@@ -96,6 +107,8 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 - Pricing: Cost x 3 = selling price; bundle margins 40-70%
 - Marketing: TikTok (primary), Instagram, Facebook, email (Klaviyo)
 - Wife handles: branding, photography, social media, customer service
+- **Status (March 2026):** Domains purchased, logos/branding complete (by Narjes in 2025),
+  Shopify store not yet built, Narjes studying dropshipping
 
 ### AI Agent Platform (SaaS)
 
@@ -141,11 +154,14 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 
 | Slot                  | Activity                                              |
 |-----------------------|-------------------------------------------------------|
-| Weekdays 6-7:30 AM   | AI platform development (deep work)                   |
-| Weekdays 9-5          | Day job (not available)                               |
-| Weekdays 8-10:30 PM  | Shopify, marketing, admin, consulting                 |
-| Saturday 9 AM-5 PM   | Production day (baking, content, coding, marketing)   |
-| Sunday 10 AM-2 PM    | Planning, batch content, family time                  |
+| Weekdays 6–7:30 AM   | AI platform development (deep work)                   |
+| Weekdays 9–5          | Day job (not available)                               |
+| Weekdays 8–10 PM     | Shopify, marketing, admin, consulting (2 hrs cap)     |
+| Sat & Sun 10 AM–6 PM | Kitchen job — not available for business              |
+| Sat & Sun 8–10 PM    | Business work after kitchen shift (2 hrs/day)         |
+
+**Mahdi total: ~17–20 hrs/week (with kitchen job) or ~20–25 hrs/week (without)**
+**Narjes total: ~5–10 hrs/week**
 
 ## 10. Key Principles
 
@@ -192,3 +208,35 @@ All business documentation is in `docs/06_Business_Planning/`:
 | team-and-family-roles.md        | Wife, kids, brother roles and documentation      |
 | time-management-plan.md         | Schedule around 9-5 job                          |
 | automation-agent-plan.md        | AI agents and automation strategy                |
+
+---
+
+## AI Instructions: Mutation Policy
+
+> **For all AI assistants:** This file is the source of truth, but it is a **living document**.
+> You are expected to challenge and suggest updates to any data marked as "living estimate" below.
+
+### Immutable (Do Not Change Without User Confirmation)
+
+- Owner identity, family relationships, location
+- Business registration details and CRA rules
+- Historical filings (2025 actuals)
+
+### Living Estimates (Challenge These)
+
+- Revenue targets, expense projections, deduction amounts
+- Roadmap timelines and milestones
+- Pricing strategies and marketing channel mix
+- Team hours, rates, and role descriptions
+- Technology stack choices
+
+### How to Suggest Updates
+
+1. State what seems outdated and why
+2. Propose the specific change with before/after values
+3. Note impact on other documents
+4. All changes go through pull requests — never edit `main` directly
+
+### Governance Reference
+
+See [AI Governance Policy](../02_Standards_and_Governance/ai-governance.md) for full details.

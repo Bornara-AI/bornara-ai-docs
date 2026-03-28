@@ -97,27 +97,56 @@ YYYY-MM-DD **Applies To:** [Project or Company]
 - ✅ **Cross-ref validator**: Catches broken links
 - ✅ **Copilot agents**: AI assistance for documentation tasks
 
-## 🤖 GitHub Copilot Integration
+## 🤖 Autonomous AI System
 
-This repository includes configured Copilot agents to assist with documentation:
+This repository includes a self-evolving AI agent system that acts as an operating system for the
+business. The AI automatically routes questions to the right domain, challenges outdated
+information, suggests improvements, and proposes new agents when gaps are detected.
 
-### Available Agents
+### Agent Architecture
 
-- **@doc-updater** - Suggests doc updates when code/config changes
-- **@standards-check** - Validates adherence to company standards
-- **@cross-ref** - Manages links between documents
-
-### Using Copilot
-
-In pull requests or while editing:
-
-```text
-@doc-updater help me update docs after adding OAuth
-@standards-check review this architecture doc
-@cross-ref check links in this file
+```
+instructions.md (Always loaded — The Brain)
+    │
+    ├── @orchestrator          Cross-domain planning and prioritization
+    ├── @agent-creator         Proposes and designs new agents
+    │
+    ├── @business-advisor      Strategy, finance, CRA compliance, growth
+    ├── @shopify-ops           Giftifye + cookie Shopify operations
+    ├── @ai-platform           AI Agent Platform development
+    ├── @cra-tax               Tax filing, deductions, audit readiness
+    │
+    ├── @doc-updater           Documentation maintenance
+    ├── @standards-checker     Standards validation
+    └── @cross-ref             Link management
 ```
 
-See [Copilot Instructions](.github/copilot/instructions.md) for details.
+### How It Works
+
+- **Auto-routing:** `instructions.md` is loaded on every conversation and contains routing logic
+  to apply the right domain expertise automatically
+- **Proactive:** Every agent suggests improvements, flags risks, and proposes options
+- **Self-evolving:** `@agent-creator` proposes new agents when it detects gaps
+- **Nothing is concrete:** All business data is treated as living estimates that AI should challenge
+- **PR workflow:** All changes go through pull requests — AI never pushes to `main` directly
+
+### Using Agents
+
+```text
+@orchestrator what should I focus on this week?
+@shopify-ops help me pick products for Mother's Day bundles
+@cra-tax can I deduct my new monitor?
+@business-advisor should I raise prices on Giftifye?
+@ai-platform what should the MVP include?
+@agent-creator I keep asking about cookie business — should that be its own agent?
+```
+
+### Governance
+
+See [AI Governance Policy](docs/02_Standards_and_Governance/ai-governance.md) for mutation policy,
+agent lifecycle, and quality standards.
+
+See [Copilot Instructions](.github/copilot/instructions.md) for the full orchestration brain.
 
 ## 📊 Project Portfolio
 
@@ -150,33 +179,43 @@ Configure SharePoint path in the script before first use.
 
 ## 🛠️ Development Workflow
 
-### Making Changes
+### Making Changes (PR-Only)
 
-1. Create a branch:
+All changes go through pull requests. Direct pushes to `main` are blocked.
+
+1. Start from main:
 
    ```bash
-   git checkout -b docs/your-change
+   git checkout main && git pull origin main
    ```
 
-2. Make your changes
-3. Run checks:
+2. Create a feature branch:
+
+   ```bash
+   git checkout -b feat/your-change
+   ```
+
+3. Make your changes and run checks:
 
    ```bash
    npm run lint:md:fix
    npm run check:cross-refs
    ```
 
-4. Commit (pre-commit hooks run automatically):
+4. Commit and push:
 
    ```bash
-   git commit -m "docs: update architecture"
+   git add .
+   git commit -m "docs: description of change"
+   git push origin feat/your-change
    ```
 
-5. Push and create PR:
+5. Create PR on GitHub — Guardian workflow validates automatically
+6. Review and merge. Delete the feature branch after
 
-   ```bash
-   git push origin docs/your-change
-   ```
+### Setting Up Branch Protection
+
+See [Branch Protection Setup Guide](BRANCH_PROTECTION_SETUP.md) for step-by-step instructions.
 
 ### PR Process
 
@@ -217,4 +256,4 @@ This documentation is proprietary to Bornara AI.
 
 ---
 
-**Last Updated:** 2026-03-16 **Repository:** <https://github.com/Bornara-AI/bornara-ai-docs>
+**Last Updated:** 2026-03-17 **Repository:** <https://github.com/Bornara-AI/bornara-ai-docs>

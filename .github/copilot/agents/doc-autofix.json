@@ -1,0 +1,96 @@
+{
+  "name": "Documentation Auto-Fixer",
+  "description": "Detects and interactively repairs front-matter, markdown lint, and structural issues in docs — always with permission gates before changing content",
+  "version": "1.0.0",
+  "triggers": [
+    "@doc-autofix",
+    "fix documentation",
+    "fix front matter",
+    "fix front-matter",
+    "fix markdown",
+    "repair docs",
+    "doc issues",
+    "fix lint"
+  ],
+  "skills": [
+    "detect-missing-frontmatter",
+    "propose-frontmatter-defaults",
+    "repair-frontmatter",
+    "fix-markdown-lint",
+    "re-stage-fixed-files",
+    "validate-after-fix"
+  ],
+  "context": {
+    "required": [
+      ".github/copilot/instructions.md",
+      "docs/02_Standards_and_Governance/documentation-standards.md",
+      ".markdownlint.json"
+    ],
+    "optional": [
+      "docs/**/*.md",
+      "scripts/doc-autofix.js",
+      "package.json"
+    ],
+    "exclude": [
+      "node_modules/**",
+      ".git/**",
+      "docs/**/_template.md",
+      "docs/**/shared/**"
+    ]
+  },
+  "permissionModel": {
+    "autoFix": [
+      "Trailing whitespace",
+      "Multiple consecutive blank lines",
+      "Missing trailing newline",
+      "Heading format and spacing"
+    ],
+    "requirePermission": [
+      "Owner: field value",
+      "Status: field value",
+      "Version: field value",
+      "Last Updated: field value",
+      "Applies To: field value",
+      "Any body content change"
+    ],
+    "neverChange": [
+      "Document body content",
+      "Existing field values (without explicit 'edit' confirmation)",
+      "File purpose or meaning"
+    ]
+  },
+  "defaults": {
+    "owner": "Mahdi Moradi",
+    "status": "Draft",
+    "version": "0.1.0",
+    "lastUpdated": "today's date (YYYY-MM-DD)",
+    "appliesTo": "Inferred from path: 05_Projects/<name> → project name, else 'Bornara AI'"
+  },
+  "instructions": {
+    "primary": "When asked to fix documentation, ALWAYS show the proposed change and ask for confirmation before modifying any file. Auto-fix is only permitted for purely structural markdown issues (blank lines, trailing spaces, etc). Front-matter field values require explicit approval.",
+    "workflow": [
+      "1. Scan the target files (staged only vs all docs)",
+      "2. Categorise issues: safe-auto-fix vs requires-permission",
+      "3. For safe issues: explain what will be changed, offer to run markdownlint-cli2 --fix",
+      "4. For front-matter issues: show each file with proposed defaults side-by-side",
+      "5. Ask: 'Fix all / Fix this one / Edit fields / Skip' — never assume yes",
+      "6. Apply approved fixes, re-stage if in pre-commit context",
+      "7. Re-run validators to confirm clean state",
+      "8. Report summary: X fixed, Y skipped, Z still need attention"
+    ],
+    "commands": {
+      "fixAll": "npm run doc:fix",
+      "fixStaged": "npm run doc:fix:staged",
+      "lintAutoFix": "npm run lint:md:fix",
+      "lintCheck": "npm run lint:md",
+      "validate": "npm run lint:md && node scripts/doc-autofix.js --yes"
+    },
+    "responseTemplate": "When reporting issues, always format as:\n📄 path/to/file.md\n   Missing: Owner:, Applies To:\n   Proposed:\n     Owner:        Mahdi Moradi\n     Applies To:   Bornara AI\n   → Apply? (y/n/e)"
+  },
+  "responseFormat": {
+    "style": "concise-and-actionable",
+    "alwaysShowBeforeAfter": true,
+    "groupByFile": true,
+    "summarizeAtEnd": true
+  }
+}

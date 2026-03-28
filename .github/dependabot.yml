@@ -1,0 +1,26 @@
+version: 2
+updates:
+  # Keep GitHub Actions pinned to latest SHA automatically
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "fix(ci)"
+    labels:
+      - "dependencies"
+      - "ci"
+
+  # Keep npm dev dependencies updated
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "fix(deps)"
+    labels:
+      - "dependencies"
+    ignore:
+      # Keep glob pinned at v10 (v11 drops CJS support entirely)
+      - dependency-name: "glob"
+        update-types: ["version-update:semver-major"]
