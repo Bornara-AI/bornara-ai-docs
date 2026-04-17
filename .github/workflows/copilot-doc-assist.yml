@@ -37,7 +37,7 @@ jobs:
         id: changed-files
         # Pinned to SHA of v44 — prevents supply-chain compromise (tj-actions incident, Mar 2025)
         # To update: check https://github.com/tj-actions/changed-files/releases and update SHA
-        uses: tj-actions/changed-files@2d756ea4c53f7f6b397767d8723b3a10a9f35bf2
+        uses: tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323
         with:
           files: |
             docs/**/*.md
