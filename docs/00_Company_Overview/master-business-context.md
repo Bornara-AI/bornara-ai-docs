@@ -27,7 +27,8 @@
 | Mortgage               | ~$470,000 (~$2,700/month payments)                            |
 | Other Debt             | ~$30,000                                                      |
 | Business Bank Account  | RBC (recently opened, dedicated to business)                  |
-| Personal LOC           | BMO, ~9–11% variable, up to $50K available                    |
+| Personal LOC (Mahdi)   | BMO, ~9–11% variable, $12K limit                             |
+| Personal LOC (Narjes)  | RBC, ~10–12% variable (+1%), $32K limit                      |
 | Tax Filing             | Wealthsimple (T1 + T2125)                                    |
 | HST Registered         | No (not required until $30,000 revenue)                       |
 
@@ -61,7 +62,7 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 | Total Deductions      | $13,600-$33,000                                        |
 | Expected Net Loss     | $10,000-$20,000                                        |
 | Estimated Tax Savings | $3,000-$8,000                                          |
-| Funding Source        | Personal LOC (max $25K draw in 2026)                   |
+| Funding Source        | LOC: Mahdi BMO $12K + Narjes RBC $32K = $44K total available |
 | Insurance Budget      | $0-$1,500 (phased with revenue triggers)               |
 
 ## 5. Key Deduction Categories

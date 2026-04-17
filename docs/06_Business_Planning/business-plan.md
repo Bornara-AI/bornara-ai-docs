@@ -150,26 +150,30 @@ accountant before including.
 
 ## 4a. Personal Financial Buffer & Funding Plan
 
-### Funding Source
+### Funding Sources
 
-| Item                        | Detail                                                    |
-|-----------------------------|-----------------------------------------------------------|
-| Source                      | Personal Line of Credit (LOC)                             |
-| Bank                         | BMO                                                       |
-| Maximum Available            | $50,000                                                   |
-| Maximum Business Draw        | $25,000 (hard cap for 2026)                               |
-| Draw Method                  | Gradual, as-needed — not a lump sum                       |
-| Interest                     | Paid by the business (100% deductible on T2125 Line 8710) |
-| LOC Interest Rate            | ~9–11% variable (BMO, as of March 2026)                   |
-| Annual Interest Cost (est.)  | $800–$2,000 (depending on balance)                        |
+| Source | Owner | Bank | Limit | Rate | Priority |
+|--------|-------|------|-------|------|----------|
+| Personal LOC | Mahdi | BMO | $12,000 | ~9–11% variable | Draw first |
+| Personal LOC | Narjes | RBC | $32,000 | ~10–12% variable | Draw second |
+| **Total available** | | | **$44,000** | | |
+
+| Item | Detail |
+|------|--------|
+| Draw Method | Gradual, as-needed — not a lump sum |
+| Interest | Paid by the business (100% deductible on T2125 Line 8710) |
+| Annual Interest Cost (est.) | $1,200–$4,500 (depending on balances drawn) |
+| Business Account | RBC (same bank as Narjes's LOC — internal transfers are instant/free) |
 
 ### How It Works
 
-1. **Transfer funds from personal LOC to a dedicated business bank account** as expenses arise
-2. **Each draw is documented** with: date, amount, purpose, and running balance
-3. **Business pays the interest** — tracked as a deductible expense (T2125 Line 8710)
-4. **Principal repayment** comes from business revenue once profitable
-5. **Never exceed $25,000 outstanding** in 2026 — reassess at year-end
+1. **Draw from Mahdi's BMO LOC first** (lower rate); switch to Narjes's RBC LOC once BMO approaches $12K
+2. **Transfer funds to the RBC business bank account** before spending — never directly from LOC
+3. **Each draw is documented** with: date, amount, LOC source, purpose, and running balance
+4. **Business pays the interest** — tracked as a deductible expense (T2125 Line 8710)
+5. **Principal repayment** comes from business revenue once profitable
+
+See [LOC Funding Mechanics](loc-funding-mechanics.md) for full draw process, tracking log, and CRA rules.
 
 ### Required Documentation (CRA)
 
