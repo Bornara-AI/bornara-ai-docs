@@ -79,7 +79,7 @@ jobs:
       - name: Check for new projects
         id: new-projects
         run: |
-          new_projects=$(git diff --name-only origin/main...HEAD | grep "docs/05_Projects/" | cut -d/ -f3 | sort -u || echo "")
+          new_projects=$(git diff --name-only origin/main...HEAD | grep "docs/05_Projects/" | cut -d/ -f3 | sort -u | paste -sd ',' - || echo "")
           if [ -n "$new_projects" ]; then
             echo "found=true" >> $GITHUB_OUTPUT
             echo "projects=$new_projects" >> $GITHUB_OUTPUT
