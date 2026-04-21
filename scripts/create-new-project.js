@@ -83,7 +83,12 @@ function createProjectStructure(projectId, projectName, owner) {
     };
 
     const projectJsonPath = path.join(projectPath, 'project.json');
-    fs.writeFileSync(projectJsonPath, JSON.stringify(projectJson, null, 2));
+    try {
+        fs.writeFileSync(projectJsonPath, JSON.stringify(projectJson, null, 2));
+    } catch (error) {
+        log(`\n❌ Error writing project.json: ${error.message}\n`, 'yellow');
+        process.exit(1);
+    }
     log(`   ✓ Created ${projectJsonPath}`, 'green');
 
     // Create README.md
@@ -126,7 +131,12 @@ function createProjectStructure(projectId, projectName, owner) {
 `;
 
     const readmePath = path.join(projectPath, 'README.md');
-    fs.writeFileSync(readmePath, readmeContent);
+    try {
+        fs.writeFileSync(readmePath, readmeContent);
+    } catch (error) {
+        log(`\n❌ Error writing README.md: ${error.message}\n`, 'yellow');
+        process.exit(1);
+    }
     log(`   ✓ Created ${readmePath}`, 'green');
 
     // Create section READMEs
@@ -181,7 +191,12 @@ This documentation follows [Company Documentation Standards](../../../02_Standar
 `;
 
         const sectionPath = path.join(projectPath, section.folder, 'README.md');
-        fs.writeFileSync(sectionPath, sectionReadme);
+        try {
+            fs.writeFileSync(sectionPath, sectionReadme);
+        } catch (error) {
+            log(`\n❌ Error writing ${sectionPath}: ${error.message}\n`, 'yellow');
+            process.exit(1);
+        }
         log(`   ✓ Created ${sectionPath}`, 'green');
     }
 
@@ -207,6 +222,16 @@ function main() {
     // Validate project ID format
     if (!/^[a-z0-9-]+$/.test(args.id)) {
         log('\n❌ Error: Project ID must be lowercase with hyphens only (e.g., "customer-portal")\n', 'yellow');
+        process.exit(1);
+    }
+
+    // Validate project name
+    if (!args.name || args.name.trim().length === 0) {
+        log('\n❌ Error: Project name cannot be empty\n', 'yellow');
+        process.exit(1);
+    }
+    if (/[\n\r#*|\[\]<>]/.test(args.name)) {
+        log('\n❌ Error: Project name contains invalid characters (no markdown special chars)\n', 'yellow');
         process.exit(1);
     }
 

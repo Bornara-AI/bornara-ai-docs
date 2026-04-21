@@ -3,8 +3,13 @@
 **Owner:** Mahdi Moradi
 **Status:** Draft
 **Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Last Updated:** 2026-04-20
 **Applies To:** Company
+
+> **Updated April 20, 2026:** This document describes all four potential revenue streams.
+> The current 2026 plan focuses on **Bornara Tools** and **Cookie Business only**.
+> Giftifye is **ON HOLD** and the AI Platform is **DEFERRED TO 2027**.
+> See [12-Month Roadmap](12-month-roadmap.md) for active vs deferred streams.
 
 ---
 

@@ -53,6 +53,10 @@ function listProjects() {
         try {
             const content = fs.readFileSync(file, 'utf-8');
             const project = JSON.parse(content);
+            if (!project.id || !project.name || !project.status) {
+                log(`   ✗ Incomplete project.json (missing id/name/status): ${file}`, 'yellow');
+                continue;
+            }
             projects.push(project);
         } catch (error) {
             log(`   ✗ Error reading ${file}: ${error.message}`, 'red');

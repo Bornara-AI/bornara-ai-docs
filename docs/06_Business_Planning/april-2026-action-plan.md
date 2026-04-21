@@ -2,8 +2,8 @@
 
 **Owner:** Mahdi Moradi
 **Status:** Draft
-**Version:** 1.0.0
-**Last Updated:** 2026-03-19
+**Version:** 2.0.0
+**Last Updated:** 2026-04-20
 **Applies To:** Bornara AI
 
 ---
@@ -16,6 +16,62 @@ priority Q2 items. It is scoped for ~15–18 hrs/week (Mahdi) + ~5–10 hrs/week
 factoring in the kitchen job.
 
 **Guiding principle:** Revenue-generating actions first. Everything else second.
+
+> **Status update (April 20, 2026):** This plan was **largely not executed** as written.
+> Instead of the 4-stream catch-up sprint, April was spent on:
+>
+> 1. **Bornara Tools planning** — Created 8 comprehensive project docs, locked tech stack,
+>    designed 6-phase build plan with 35 scored tools
+> 2. **Cookie recipe testing** — Narjes continued testing recipes and filming for Instagram
+> 3. **Strategic pivot decision** — Reduced from 4 streams to 2 (Tools + Cookies)
+>
+> The original Week 1–4 plans below are **archived for reference**. The new plan going
+> forward is in the [Revised 12-Month Roadmap](12-month-roadmap.md).
+
+---
+
+## April Remaining (April 21–30): Revised Tasks
+
+### Mahdi — 10 hrs
+
+| Day | Task | Hours | Priority |
+|-----|------|-------|----------|
+| This week | Get cottage food ruling from Calgary AHS | 0.5 | **Critical** |
+| This week | Start CRA activity log (backfill April entries) | 1.0 | High |
+| This week | Document Narjes hours for April (recipe testing, filming, Instagram) | 1.0 | High |
+| Evenings | Review all Bornara Tools planning docs one final time | 2.0 | Medium |
+| Evenings | Research: pnpm + Next.js 15 + shadcn/ui tutorial (prep for May 1 build) | 4.0 | High |
+| Friday | Admin: set up expense tracking for 2-stream model | 1.5 | High |
+
+### Narjes — 8 hrs
+
+| Task | Hours | Notes |
+|------|-------|-------|
+| Continue cookie recipe testing | 4 | Document recipes for consistency |
+| Instagram content (3+ posts) | 2 | Recipe videos, behind-the-scenes |
+| Fill out April timesheet | 1 | Hours, tasks, dates |
+| Bornara Tools logo sketches | 1 | Initial concepts for May |
+
+### Cookie Decision Gate (Due: April 25)
+
+Call Calgary's Environmental Public Health department (Alberta Health Services):
+
+1. Can you sell cookies baked at home in Calgary under Alberta's cottage food exemption?
+2. Do you need a food handler's certificate?
+3. Do you need a home kitchen inspection?
+4. Are there labelling requirements (allergens, ingredients)?
+
+| Answer | Action |
+|--------|--------|
+| Yes, permitted | Proceed with local cookie sales in May |
+| Yes, with permit/cert | Budget $50–$200 for cert, launch in June |
+| No, not permitted | **Drop cookies from 2026 plan**, reallocate Narjes hours to Tools design + Giftifye prep |
+
+**Result:** _________________ (fill in after call)
+
+---
+
+## Original Plan (Weeks 1–4) — ARCHIVED
 
 ---
 
@@ -36,7 +92,7 @@ factoring in the kitchen job.
 | Fri | 8:00–10:00 PM | Admin: expense tracking setup, start CRA activity log | 2.0 | High |
 | Sat | (if free) | Giftifye: product photography session with Narjes | 4.0 | High |
 
-### Narjes — 8 hrs
+### Narjes — 8 hrs (Original Plan)
 
 | Task | Hours | Notes |
 |------|-------|-------|

@@ -61,7 +61,8 @@ jobs:
           else
             # Check if any trigger files changed
             needs_update=false
-            for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            IFS=' ' read -ra FILES <<< "${{ steps.changed-files.outputs.all_changed_files }}"
+            for file in "${FILES[@]}"; do
               case $file in
                 package.json|.github/workflows/*|scripts/*|.markdownlint.json|.prettierrc.json)
                   needs_update=true

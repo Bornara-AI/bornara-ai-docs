@@ -102,13 +102,15 @@ of them:
 ### CRA Narrative Statement (Keep With Your Records)
 
 > "My business, operated under the trade name Bornara AI, began in 2025 as a sole proprietorship.
-> In 2026, the business expanded into four revenue streams: e-commerce (Giftifye.com), AI SaaS
-> platform development, technology consulting, and a cookie baking business. The business generated
-> revenue of $[X] in 2026 against startup expenses totaling $[X], resulting in a net loss of
-> $[X]. This loss is normal and expected for a business in its first full year of operations. The
-> business has a documented 5-year plan, real customers, active marketing, and a clear path to
-> profitability. All expenses are directly related to business operations and are supported by
-> receipts, timesheets, and activity logs."
+> In 2026, the business focused on two primary revenue streams: Bornara Tools (a free ad-supported
+> online toolbox at tools.bornara.com) and a cookie baking business operated by my wife. Technology
+> consulting was pursued on an opportunistic basis. Two additional streams (Giftifye.com e-commerce
+> and an AI SaaS platform) were strategically deferred to 2027 to focus limited time and resources
+> on executing the two core streams well. The business generated revenue of $[X] in 2026 against
+> startup expenses totaling $[X], resulting in a net loss of $[X]. This loss is normal and expected
+> for a business in its first full year of operations. The business has a documented 5-year plan,
+> real customers, active marketing, and a clear path to profitability. All expenses are directly
+> related to business operations and are supported by receipts, timesheets, and activity logs."
 
 ---
 

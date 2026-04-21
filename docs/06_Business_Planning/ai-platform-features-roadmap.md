@@ -3,8 +3,14 @@
 **Owner:** Mahdi Moradi
 **Status:** Draft
 **Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Last Updated:** 2026-04-20
 **Applies To:** Agentic AI Platform
+
+> **DEFERRED TO Q1 2027.** As of April 20, 2026, all AI Platform development is paused.
+> This roadmap is preserved for future reference. The Q2 MVP, Q3 beta, and Q4 launch
+> targets below are **cancelled for 2026**. Patterns learned from building Bornara Tools
+> will inform future platform architecture.
+> See [12-Month Roadmap](../06_Business_Planning/12-month-roadmap.md) for activation criteria.
 
 ---
 

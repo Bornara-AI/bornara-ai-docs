@@ -2,8 +2,8 @@
 
 **Owner:** Mahdi Moradi
 **Status:** Draft
-**Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Version:** 2.0.0
+**Last Updated:** 2026-04-20
 **Applies To:** Company
 
 ---
@@ -36,30 +36,38 @@ documented for CRA compliance and operational clarity.
 - Supplier and vendor management
 - Technology decisions
 
-### 2.2 Narjes (Wife) — Design, Admin & Operations
+### 2.2 Narjes (Wife) — Cookie Business Lead, Design & Operations
 
 | Detail           | Description                                                     |
 |------------------|-----------------------------------------------------------------|
-| Role             | Designer, administrator, social media manager                   |
-| Time Commitment  | 5-10 hours/week                                                 |
+| Role             | **Cookie business lead (independent)**, designer, social media  |
+| Time Commitment  | 10-15 hours/week (cookies), 3-8 hours/month (Bornara Tools)    |
 | Compensation     | $20-$30/hour (wages, deductible to business)                    |
-| Annual Pay       | $5,200-$15,600                                                  |
+| Annual Pay       | $5,200-$12,000                                                  |
 | Payment Method   | E-transfer (preferred) or cash with signed receipts             |
 | Tax Impact       | Reports as income; likely pays $0 or minimal tax                |
 
-**Responsibilities:**
+#### Primary Role: Cookie Business Lead (Independent)
+
+- Recipe development, testing, and quality control
+- Baking, packaging, and delivery
+- Customer management (orders, inquiries)
+- Instagram content creation and social media marketing
+- Pricing decisions within Cost x 3 framework
+- Cottage food compliance (permit/certification as required)
+
+#### Secondary Role: Bornara Tools Support (3-8 hrs/month)
+
+- Logo and branding design (May-June 2026)
+- UI/UX feedback on tool designs
+- Social media cross-promotion
+
+#### Deferred Responsibilities (When Activated)
 
 | Category         | Tasks                                                           |
 |------------------|-----------------------------------------------------------------|
-| Design           | Logo creation, branding, product images, social media templates |
-| Photography      | Product photography (gifts, cookies, packaging)                 |
-| Shopify          | Theme customization, collection layouts, product descriptions   |
-| Social Media     | Content creation, daily posting, community engagement           |
-| Admin            | Email management, scheduling, receipt organization              |
-| Customer Service | Responding to orders, inquiries, and complaints                 |
-| Supplier Comms   | Communication with vendors and suppliers                        |
-| Cookie Business  | Recipe development, packaging design, quality control           |
-| AI Platform      | UI/UX feedback, user testing, design review                     |
+| Giftifye (ON HOLD) | Theme customization, collection layouts, product descriptions|
+| Giftifye (ON HOLD) | Product photography, supplier communications                 |
 
 **Documentation Required:**
 
@@ -183,11 +191,11 @@ Total: ~5-10 hours/week
 
 | Period      | Mahdi                        | Narjes                      | Kids      | Brother     |
 |-------------|------------------------------|-----------------------------|-----------|-------------|
-| Q1 2026     | Setup + development          | Branding + design           | Light help| Not yet     |
-| Q2 2026     | Launch + operations          | Social media + CS           | Packaging | Not yet     |
-| Q3 2026     | Scaling + AI beta            | Full operations             | More tasks| Starts      |
-| Q4 2026     | Holiday push + AI launch     | Peak activity               | Holiday   | Active      |
-| 2027+       | Strategy + growth            | Potential part-time hire     | As needed | Expand role |
+| Q1 2026     | Planning + docs              | Cookie recipe testing        | Light help| Not yet     |
+| Q2 2026     | Bornara Tools build          | Cookie sales + Tools logo    | Packaging | Not yet     |
+| Q3 2026     | Tools AI launch + scaling    | Cookie scaling + online      | More tasks| Starts      |
+| Q4 2026     | Tools 35 tools + Giftifye?   | Cookie peak + Giftifye?      | Holiday   | Active      |
+| 2027+       | AI Platform + growth         | Potential part-time hire     | As needed | Expand role |
 
 ---
 

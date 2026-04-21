@@ -69,6 +69,10 @@ function resolveLink(fromFile, linkUrl) {
     const fromDir = path.dirname(fromFile);
     const resolved = path.resolve(fromDir, urlWithoutAnchor);
 
+    // Security: ensure resolved path stays within the workspace
+    const workspaceRoot = process.cwd();
+    if (!resolved.startsWith(workspaceRoot)) return null;
+
     return resolved;
 }
 

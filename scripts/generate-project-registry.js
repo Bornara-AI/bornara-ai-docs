@@ -37,6 +37,10 @@ function generateRegistry() {
         try {
             const content = fs.readFileSync(file, 'utf-8');
             const project = JSON.parse(content);
+            if (!project.id || !project.name || !project.status) {
+                log(`   ✗ Incomplete project.json (missing id/name/status): ${file}`, 'reset');
+                continue;
+            }
             projects.push(project);
             log(`   ✓ Found: ${project.name}`, 'green');
         } catch (error) {

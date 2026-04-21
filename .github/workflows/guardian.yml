@@ -23,7 +23,7 @@ jobs:
           import glob, sys, re
 
           required = ["Owner:", "Status:", "Version:", "Last Updated:", "Applies To:"]
-          allowed_status = {"Draft", "Reviewed", "Approved", "Active"}
+          allowed_status = {"Draft", "Reviewed", "Approved"}
 
           def read_file(path):
             for enc in ("utf-8", "utf-16", "utf-8-sig"):
