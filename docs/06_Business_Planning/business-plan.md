@@ -2,8 +2,8 @@
 
 **Owner:** Mahdi Moradi
 **Status:** Draft
-**Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Version:** 2.0.0
+**Last Updated:** 2026-04-20
 **Applies To:** Company
 
 ---
@@ -11,22 +11,31 @@
 ## 1. Executive Summary
 
 Bornara AI operates as a Canadian sole proprietorship under the legal name of Mahdi Moradi. The
-business launched in 2025 with website development and consulting, and is expanding in 2026 into
-four integrated revenue streams:
+business launched in 2025 with website development and consulting, and is executing in 2026 with
+a focused 2-stream strategy:
 
-1. **Giftifye.com** — A curated Shopify gift store specializing in aesthetic gift bundles,
-   personalized items, and seasonal products
-2. **AI Agent Platform (SaaS)** — A platform for building, deploying, and managing custom AI
-   assistants with subscription-based pricing
-3. **Tech Consulting & AI Automation** — Services for small businesses including Shopify setup, AI
-   workflow automation, and website development
-4. **Cookie Business** — A Shopify-based cookie baking, packaging, and shipping operation
+1. **Bornara Tools** — A free, ad-supported online toolbox (35+ developer/AI/business tools)
+   generating passive revenue through Google AdSense
+2. **Cookie Business** — Homemade cookies sold locally and online, led by Narjes (wife)
+
+**Deferred to 2027:**
+
+1. **Giftifye.com** — A curated Shopify gift store (on hold until Tools is stable)
+2. **AI Agent Platform (SaaS)** — A platform for building custom AI assistants
+
+**Opportunistic (not actively pursued):**
+
+1. **Tech Consulting** — Take projects if they come through network
+
+> **Strategic pivot (April 20, 2026):** The original 4-stream plan was proven unrealistic
+> by Q1 results (zero progress on Giftifye and AI Platform). Two streams is the maximum
+> Mahdi can execute well on 17–20 hours/week alongside full-time employment.
 
 ### 2026 Revenue Target
 
-- **Minimum:** $5,000
-- **Expected Range:** $5,000–$8,500
-- **Expected Net Loss:** $10,000–$20,000 (normal for year 1-2, fully CRA-defensible)
+- **Minimum:** $360
+- **Expected Range:** $360–$2,400
+- **Expected Net Loss:** $6,000–$13,000 (including wife wages, home office, CCA — CRA-defensible)
 
 ---
 
@@ -52,71 +61,58 @@ Registered trade name "Bornara" — see
 
 ## 3. Revenue Streams (Detailed)
 
-### 3.1 Giftifye.com (Shopify Gift Store)
+### 3.1 Bornara Tools (Free Online Toolbox) — ACTIVE
 
 | Attribute             | Detail                                              |
 |-----------------------|-----------------------------------------------------|
-| Platform              | Shopify                                             |
-| Niche                 | Curated gift bundles, personalized gifts, seasonal  |
-| Target Market         | Gift buyers aged 25-45, corporate gifting            |
-| Revenue Model         | Product sales (dropshipping + custom bundles)        |
-| 2026 Revenue Target   | $3,000–$5,000                                        |
-| Competitive Advantage | Aesthetic branding, curated curation, personalization|
+| Platform              | Next.js 15, Vercel (free tier)                      |
+| Niche                 | Developer utilities, AI-powered tools, business tools |
+| Target Market         | Developers, AI practitioners, small business owners  |
+| Revenue Model         | Google AdSense ads (Phase 1), Premium tier (Phase 2) |
+| 2026 Revenue Target   | $60–$400                                             |
+| URL                   | tools.bornara.com                                    |
+| Build Time            | ~126 hours over 6 months (~4–5h/week coding)        |
 
-**Product Categories:**
+**See:** [Bornara Tools project docs](../05_Projects/bornara-tools/README.md)
 
-- Gift packs / bundles
-- Personalized gifts
-- Seasonal gifts (Valentine's, Mother's Day, Christmas)
-- Corporate gifts
-- Add-ons (cards, wrapping, custom messages)
-
-### 3.2 AI Agent Platform (SaaS)
+### 3.2 Cookie Business — ACTIVE (Narjes-led)
 
 | Attribute             | Detail                                               |
 |-----------------------|------------------------------------------------------|
-| Product Type          | SaaS — Build-your-own AI assistants                  |
-| Technologies          | Azure, Python, LangChain, FastAPI, CosmosDB          |
-| Revenue Model         | Subscription plans + template marketplace             |
-| 2026 Revenue Target   | $500–$1,500                                           |
-| Launch Timeline       | MVP Q2 2026, public launch Q4 2026                    |
+| Product               | Homemade cookies — baking, packaging, local + online  |
+| Platform              | Instagram (now), Shopify or local ordering (later)    |
+| Revenue Model         | Direct-to-consumer sales                              |
+| Target Market         | Local Calgary + online gift market                    |
+| 2026 Revenue Target   | $300–$1,500                                           |
+| Regulations           | Cottage food ruling pending (Calgary AHS, by April 25)|
 
-**Features:**
-
-- Pre-built AI agent templates
-- Custom agent builder
-- Task automation (email, scheduling, research)
-- Shopify integration agents
-- Subscription tiers: Free / Pro / Enterprise
-
-### 3.3 Tech Consulting & AI Automation
+### 3.3 Tech Consulting — OPPORTUNISTIC
 
 | Attribute             | Detail                                               |
 |-----------------------|------------------------------------------------------|
 | Services              | Shopify setup, AI automation, web development         |
-| Target Clients        | Small businesses, friends, local businesses           |
+| Target Clients        | Network referrals only — not actively pursued         |
 | Revenue Model         | Hourly consulting + project-based                     |
-| 2026 Revenue Target   | $500–$2,000                                           |
+| 2026 Revenue Target   | $0–$500                                               |
 | Pricing               | $50–$150/hour                                         |
 
-### 3.4 Cookie Business (Shopify)
+### 3.4 Giftifye.com (Shopify Gift Store) — ON HOLD
+
+| Attribute             | Detail                                              |
+|-----------------------|-----------------------------------------------------|
+| Status                | **On hold until Bornara Tools is stable**            |
+| Assets preserved      | Domain, branding, supplier research (from 2025)      |
+| Activation criteria   | See [12-Month Roadmap](12-month-roadmap.md)          |
+| 2026 Revenue Target   | $0                                                   |
+
+### 3.5 AI Agent Platform (SaaS) — DEFERRED TO 2027
 
 | Attribute             | Detail                                               |
 |-----------------------|------------------------------------------------------|
-| Product               | Homemade cookies — baking, packaging, shipping        |
-| Platform              | Shopify (separate or sub-store)                       |
-| Revenue Model         | Direct-to-consumer sales                              |
-| Target Market         | Local + online — gift market, events, subscriptions   |
-| 2026 Revenue Target   | $500–$1,500                                           |
-| Regulations           | Cottage food laws / municipal food handling permits    |
-
-**Product Ideas:**
-
-- Cookie gift boxes (seasonal)
-- Cookie-of-the-month subscription
-- Custom event cookies (weddings, corporate)
-- Holiday themed collections
-- Cookie + gift bundle combos with Giftifye
+| Status                | **Deferred to Q1 2027**                               |
+| Technologies          | Azure, Python, LangChain, FastAPI, CosmosDB           |
+| Activation criteria   | See [12-Month Roadmap](12-month-roadmap.md)           |
+| 2026 Revenue Target   | $0                                                    |
 
 ---
 
@@ -150,26 +146,30 @@ accountant before including.
 
 ## 4a. Personal Financial Buffer & Funding Plan
 
-### Funding Source
+### Funding Sources
 
-| Item                        | Detail                                                    |
-|-----------------------------|-----------------------------------------------------------|
-| Source                      | Personal Line of Credit (LOC)                             |
-| Bank                         | BMO                                                       |
-| Maximum Available            | $50,000                                                   |
-| Maximum Business Draw        | $25,000 (hard cap for 2026)                               |
-| Draw Method                  | Gradual, as-needed — not a lump sum                       |
-| Interest                     | Paid by the business (100% deductible on T2125 Line 8710) |
-| LOC Interest Rate            | ~9–11% variable (BMO, as of March 2026)                   |
-| Annual Interest Cost (est.)  | $800–$2,000 (depending on balance)                        |
+| Source | Owner | Bank | Limit | Rate | Priority |
+|--------|-------|------|-------|------|----------|
+| Personal LOC | Mahdi | BMO | $12,000 | ~9–11% variable | Draw first |
+| Personal LOC | Narjes | RBC | $32,000 | ~10–12% variable | Draw second |
+| **Total available** | | | **$44,000** | | |
+
+| Item | Detail |
+|------|--------|
+| Draw Method | Gradual, as-needed — not a lump sum |
+| Interest | Paid by the business (100% deductible on T2125 Line 8710) |
+| Annual Interest Cost (est.) | $1,200–$4,500 (depending on balances drawn) |
+| Business Account | RBC (same bank as Narjes's LOC — internal transfers are instant/free) |
 
 ### How It Works
 
-1. **Transfer funds from personal LOC to a dedicated business bank account** as expenses arise
-2. **Each draw is documented** with: date, amount, purpose, and running balance
-3. **Business pays the interest** — tracked as a deductible expense (T2125 Line 8710)
-4. **Principal repayment** comes from business revenue once profitable
-5. **Never exceed $25,000 outstanding** in 2026 — reassess at year-end
+1. **Draw from Mahdi's BMO LOC first** (lower rate); switch to Narjes's RBC LOC once BMO approaches $12K
+2. **Transfer funds to the RBC business bank account** before spending — never directly from LOC
+3. **Each draw is documented** with: date, amount, LOC source, purpose, and running balance
+4. **Business pays the interest** — tracked as a deductible expense (T2125 Line 8710)
+5. **Principal repayment** comes from business revenue once profitable
+
+See [LOC Funding Mechanics](loc-funding-mechanics.md) for full draw process, tracking log, and CRA rules.
 
 ### Required Documentation (CRA)
 
@@ -353,9 +353,9 @@ deductions. This is critical because Bornara AI shows losses in 2025 and expects
 | Year | Revenue | Loss    | REOP Defence                                               |
 |------|---------|---------|------------------------------------------------------------|
 | 2025 | $0      | <$3,000 | Startup year: domain, hosting, planning. Minimal deductions.|
-| 2026 | $5K–$8K | $10K–$20K | First full year: 4 streams launched, real revenue, growth. |
-| 2027 | $23K–$53K | Break even | Revenue growth demonstrates profit trajectory.          |
-| 2028 | $85K    | Profit  | Profitable — REOP question is resolved.                     |
+| 2026 | $360–$2,400 | $6K–$13K | First full year: 2 streams active, real revenue, growth plan. |
+| 2027 | $8K–$33K | Break even | Revenue growth + more streams active demonstrates trajectory. |
+| 2028 | $43K    | Profit  | Profitable — REOP question is resolved.                     |
 
 ### 2025 Filing Strategy
 
@@ -389,51 +389,53 @@ evidence comes from 2026 — having revenue, multiple active streams, and a grow
 
 ### Strengths
 
-- Diversified revenue (4 streams reduce risk)
-- Low startup costs (dropshipping, SaaS)
-- Technical expertise in AI and web development
-- Wife's design and admin skills
+- Focused execution (2 streams, not 4 — learned from Q1)
+- Near-zero startup cost for Bornara Tools (Vercel free tier)
+- Technical expertise in full-stack development and AI
+- Wife independently leads cookie business
 - Full-time employment provides financial stability during growth
+- All deferred assets (Giftifye branding, AI Platform docs) preserved for 2027
 
 ### Weaknesses
 
-- Limited time (9-5 job constraint)
+- Limited time (9-5 job + kitchen job constraint)
 - No existing customer base
-- First-time running e-commerce and SaaS
-- Single person operation (bootstrapped)
+- First-time running e-commerce (cookies) and ad-revenue site
+- Single developer for Tools (bus factor = 1)
 
 ### Opportunities
 
-- AI market growing rapidly (enterprise AI agents)
-- Gift market is evergreen with seasonal peaks
-- Cottage food / home baking trending upward
-- Low competition in AI agent platform space for SMBs
+- AI/developer tool audience has high ad RPM ($6–$15)
+- SEO compounding: each tool is a permanent traffic asset
+- Cookie market is growing (home baking trend)
+- Cross-promotion across future streams (Tools → Consulting → Giftifye)
 - Tax losses offset employment income during growth phase
 
 ### Threats
 
-- Market saturation in dropshipping
-- AI platform competition from large players
-- Food regulation changes
+- SEO takes 3–6 months to show results (patience required)
+- Cookie business depends on cottage food ruling
+- Ad revenue is seasonal and volatile
+- Burnout risk from 2 jobs + business
 - CRA audit risk if documentation is insufficient
-- Time management burnout
 
 ---
 
 ## 7. Success Metrics
 
-### 2026 KPIs
+### 2026 KPIs (Revised)
 
 | Metric                          | Target                    |
 |---------------------------------|---------------------------|
-| Total Revenue                   | $5,000–$8,500             |
-| Shopify Orders                  | 50–100                    |
-| AI Platform Users (Beta)        | 10–25                     |
-| Consulting Projects             | 3–5                       |
-| Cookie Orders                   | 20–50                     |
-| Email Subscribers               | 500+                      |
-| Social Media Followers          | 1,000+                    |
-| Ad Spend ROI                    | 2x+                       |
+| Total Revenue                   | $360–$2,400               |
+| Bornara Tools: tools live       | 35                        |
+| Bornara Tools: monthly visits   | 10,000+ by December       |
+| Bornara Tools: AdSense approved | By July 2026              |
+| Cookie orders                   | 20–50                     |
+| Cookie Instagram followers      | 500+                      |
+| Consulting projects             | 0–2 (opportunistic)       |
+| Narjes timesheets filed         | Monthly, every month      |
+| CRA documentation complete      | Activity log + expense log |
 
 ---
 
@@ -442,46 +444,45 @@ evidence comes from 2026 — having revenue, multiple active streams, and a grow
 | Risk                            | Mitigation                                        |
 |---------------------------------|---------------------------------------------------|
 | CRA Audit                       | Maintain comprehensive documentation (see CRA guide)|
-| No Revenue                      | Diversified streams; consulting is fastest to revenue|
-| Burnout                         | Strict time management plan; automate where possible|
-| Shopify Competition             | Niche down into curated gifting with strong branding |
-| Food Compliance                 | Research local cottage food laws before launching    |
-| AI Platform Delay               | Start with consulting; platform is secondary revenue|
+| No Revenue                      | Tools costs $0 to run; cookies have low overhead   |
+| Burnout                         | 2 streams max; strict time blocks; hard stop 10:30 PM |
+| Slow SEO                        | SEO compounds over time; Q4 seasonal boost helps   |
+| Cookie not legal (Calgary)      | Drop cookies, reallocate hours to Tools            |
+| Ad revenue lower than projected | Tools runs at $0 hosting; API is the only real cost |
+| Giftifye never starts           | Assets preserved; no money lost by waiting          |
 
 ---
 
-## 9. Getting First Paying Clients
+## 9. Getting First Revenue
 
-### Immediate Revenue Actions (Month 1-3)
+### Immediate Revenue Actions (April–June 2026)
 
-1. **Friends & Family Launch** — Offer Shopify setup or AI consulting to 5 people you know
-2. **LinkedIn Outreach** — Post about AI automation services weekly
-3. **Local Facebook Groups** — Offer gift bundles and cookies locally
-4. **Fiverr/Upwork** — List consulting services for quick wins
-5. **Pre-orders** — Launch a Giftifye "founding customer" discount
+1. **Cookie local sales** — Sell to friends, family, neighbours once cottage food ruling confirmed
+2. **Cookie Instagram** — Build followers through recipe content, take DM orders
+3. **Bornara Tools launch** — Get 8 tools live by end of May, start SEO indexing
+4. **AdSense application** — Submit when 20+ pages exist (June target)
+5. **Consulting (if it comes)** — LinkedIn posts about AI/dev tools, accept referrals
 
-### Client Acquisition Channels
+### Revenue Timeline
 
 | Channel          | Stream              | Timeline   | Cost      |
 |------------------|---------------------|------------|-----------|
-| Friends/Network  | Consulting          | Month 1    | $0        |
-| Facebook Groups  | Gifts / Cookies     | Month 1-2  | $0        |
-| TikTok Ads       | Giftifye            | Month 2-3  | $5-20/day |
-| LinkedIn         | Consulting / AI     | Month 1+   | $0        |
-| Product Hunt     | AI Platform         | Month 6+   | $0        |
-| Fiverr/Upwork    | Consulting          | Month 1+   | Commission|
+| Friends/family   | Cookies             | May 2026   | $0        |
+| Instagram DMs    | Cookies             | May–Jun    | $0        |
+| Google AdSense   | Bornara Tools       | Jul 2026+  | $0        |
+| Network referral | Consulting          | Anytime    | $0        |
+| ProductHunt      | Bornara Tools       | Aug 2026   | $0        |
 
 ---
 
 ## 10. Next Steps
 
-1. Complete all supporting documents in this section
-2. Finalize Shopify store setup for Giftifye
-3. Begin AI platform architecture and development
-4. Set up CRA documentation system
-5. Research cottage food permits for cookie business
-6. Create marketing content calendar
-7. Begin paying wife monthly with documentation
+1. Get cottage food ruling from Calgary AHS (by April 25)
+2. Start coding Bornara Tools on May 1 (repo + scaffold)
+3. Narjes: continue cookie recipe testing + Instagram content
+4. Begin paying Narjes monthly with documentation (May)
+5. Set up CRA activity log and expense tracking
+6. Monthly review: check if schedule is sustainable
 
 ---
 

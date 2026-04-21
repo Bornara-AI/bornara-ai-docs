@@ -3,8 +3,13 @@
 **Owner:** Mahdi Moradi
 **Status:** Draft
 **Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Last Updated:** 2026-04-20
 **Applies To:** Company
+
+> **Updated April 20, 2026:** Focus has shifted to Bornara Tools + Cookies.
+> AI Platform development (and related custom agent work) is **deferred to 2027**.
+> Existing automation priorities for documentation, marketing, and operations remain valid.
+> See [12-Month Roadmap](12-month-roadmap.md) for the current plan.
 
 ---
 

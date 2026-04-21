@@ -1,0 +1,21 @@
+{
+  "id": "bornara-tools",
+  "name": "Bornara Tools",
+  "description": "Free ad-supported online toolbox for developers, AI practitioners, creators, and small business owners — 35+ tools including AI-powered utilities",
+  "status": "active",
+  "phase": "planning",
+  "owner": "Mahdi Moradi",
+  "team": ["Mahdi Moradi", "Narjes (Design)"],
+  "startDate": "2026-04",
+  "targetLaunch": "2026-05",
+  "technologies": ["Next.js", "Vercel", "Tailwind CSS", "OpenAI GPT-4o-mini", "Sharp.js"],
+  "url": "tools.bornara.com",
+  "repository": "https://github.com/Bornara-AI/bornara-tools",
+  "documentation": "/docs/05_Projects/bornara-tools/",
+  "revenueModel": "Ad-supported (Google AdSense) + Premium tier (Phase 2)",
+  "parentStandards": [
+    "/docs/02_Standards_and_Governance/documentation-standards.md",
+    "/docs/02_Standards_and_Governance/code-quality-standards.md",
+    "/docs/02_Standards_and_Governance/security-policies.md"
+  ]
+}

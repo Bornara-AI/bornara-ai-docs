@@ -9,8 +9,9 @@
 ## Who You Are Working With
 
 This repository is the **AI operating system** for Bornara AI — a Canadian sole proprietorship
-run by Mahdi Moradi in Calgary, Alberta. It is not just documentation; it manages 4 revenue
-streams, CRA tax compliance, operations, and technical architecture.
+run by Mahdi Moradi in Calgary, Alberta. It is not just documentation; it manages 2 active
+revenue streams (Bornara Tools + Cookies), 2 deferred streams (Giftifye, AI Platform),
+CRA tax compliance, operations, and technical architecture.
 
 **Before answering any business question**, read `docs/00_Company_Overview/master-business-context.md`.
 
@@ -98,6 +99,8 @@ Invoke by name in chat, or Copilot auto-routes based on question type:
 | `@shopify-ops` | Giftifye, products, bundles | Shopify operations |
 | `@ai-platform` | AI platform, Azure, SaaS, architecture | Technical platform |
 | `@code-reviewer` | review code, review script, review workflow | Senior code review + fix |
+| `@toolbox-planner` | toolbox website, free tools site, ad revenue tools, ilovepdf-like | Toolbox website planning, market research, niche, monetisation |
+| `@toolbox-dev` | build the toolbox, implement a tool, Next.js tool, AdSense integration | Toolbox website technical implementation |
 | `@doc-autofix` | fix docs, fix front-matter, lint errors | Documentation auto-repair |
 | `@standards-checker` | validate docs, check compliance | Standards validation |
 | `@doc-updater` | update docs after code change | Documentation freshness |
@@ -133,7 +136,8 @@ docs/
   03_Operations/
   04_Technology_Stack/
   05_Projects/
-    agentic-ai-platform/     Main SaaS project
+    agentic-ai-platform/     AI SaaS project (deferred to 2027)
+    bornara-tools/           Free toolbox website (ACTIVE — main project)
   06_Business_Planning/      Revenue, tax, marketing, roadmaps
 scripts/                     Automation (doc-autofix.js, create-new-project.js, …)
 .github/
@@ -162,6 +166,7 @@ Each prompt encodes an expert persona + structured review criteria + mandatory s
 | `ai-platform-advisor` | SaaS architecture, feature scoping, Azure cost |
 | `code-review` | Senior review of any script, workflow, or config file |
 | `doc-quality-review` | Full structural + content + cross-reference review |
+| `toolbox-website-planner` | Toolbox website market research, niche, tool selection, SEO, ad revenue projections |
 
 **How to trigger:** In VS Code Copilot Chat, type `/` and select the prompt, or type
 `#strategic-overview` to attach it to your message.

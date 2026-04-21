@@ -2,8 +2,8 @@
 
 **Owner:** Mahdi Moradi
 **Status:** Draft
-**Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Version:** 2.0.0
+**Last Updated:** 2026-04-20
 **Applies To:** Company
 
 ---
@@ -63,29 +63,32 @@ The kitchen job provides ~$1,200/month ($14,400/year). Consider dropping it when
 
 ## 2. Weekly Time Blocks
 
+> **Updated April 20, 2026:** Blocks reallocated for 2-stream focus (Tools + Cookies).
+> Mahdi focuses almost entirely on Bornara Tools. Narjes leads cookies independently.
+
 ### Weekday Mornings (6:00 AM – 7:30 AM) — Deep Work
 
-**Best for:** AI platform coding, architecture design, complex problem-solving
+**Best for:** Bornara Tools coding — building tools, shared components, AI integration
 
 | Day       | Focus                                                           |
 |-----------|-----------------------------------------------------------------|
-| Monday    | AI platform development                                         |
-| Tuesday   | AI platform development                                         |
-| Wednesday | Shopify product research / store optimization                   |
-| Thursday  | AI platform development                                         |
-| Friday    | Consulting work or business planning                             |
+| Monday    | Bornara Tools development                                       |
+| Tuesday   | Bornara Tools development                                       |
+| Wednesday | Bornara Tools development                                       |
+| Thursday  | Bornara Tools development                                       |
+| Friday    | Bornara Tools development or business planning                  |
 
 ### Weekday Evenings (8:00 PM – 10:30 PM) — Operations
 
-**Best for:** Marketing, admin, content, lighter work
+**Best for:** SEO content, lighter Tools work, admin, cookie support
 
 | Day       | Focus                                                           |
 |-----------|-----------------------------------------------------------------|
-| Monday    | Social media content + ad management                             |
-| Tuesday   | Shopify orders, customer service review                          |
-| Wednesday | Cookie business (recipe testing, packaging)                      |
-| Thursday  | Marketing analytics, email campaigns                             |
-| Friday    | Admin: receipts, documentation, CRA logs                         |
+| Monday    | Tools: SEO content writing (how-to sections, FAQ)               |
+| Tuesday   | Tools: testing, bug fixes, PR reviews                           |
+| Wednesday | Cookie support: help Narjes with online setup, Shopify page     |
+| Thursday  | Tools: analytics review, ad placement optimization              |
+| Friday    | Admin: receipts, CRA documentation, Narjes timesheet            |
 
 ### Saturday — After Kitchen Shift (8:00–10:00 PM)
 
@@ -93,8 +96,8 @@ The kitchen job provides ~$1,200/month ($14,400/year). Consider dropping it when
 
 | Time          | Activity                                                    |
 |---------------|-------------------------------------------------------------|
-| 8:00–9:00 PM  | Content creation or marketing (lighter tasks)               |
-| 9:00–10:00 PM | Admin, CRA logs, or AI platform work                        |
+| 8:00–9:00 PM  | Cookie business: review Narjes’s week, plan orders            |
+| 9:00–10:00 PM | Tools: light work or content creation                       |
 
 ### Sunday — After Kitchen Shift (8:00–10:00 PM)
 
@@ -102,37 +105,55 @@ The kitchen job provides ~$1,200/month ($14,400/year). Consider dropping it when
 
 | Time          | Activity                                                    |
 |---------------|-------------------------------------------------------------|
-| 8:00–9:00 PM  | Weekly planning: review metrics, set priorities             |
-| 9:00–10:00 PM | Batch content creation for the week                         |
+| 8:00–9:00 PM  | Weekly planning: review metrics, set priorities              |
+| 9:00–10:00 PM | Tools: batch SEO content or planning for next week          |
 
 ---
 
 ## 3. Monthly Time Distribution
 
+> **Updated April 20, 2026:** Reduced from 4 streams to 2 active streams.
+
 | Activity                    | Hours/Month (with kitchen job) | Hours/Month (no kitchen job) | % of Time |
-|-----------------------------|-------------------------------|------------------------------|-----------||
-| AI Platform Development     | 18–22                         | 25–30                        | 35–40%    |
-| Shopify Management          | 8–12                          | 10–15                        | 15–20%    |
-| Marketing & Content         | 8–12                          | 10–15                        | 15–20%    |
-| Cookie Business             | 3–5                           | 5–8                          | 8–10%     |
-| Consulting                  | 4–6                           | 5–8                          | 8–10%     |
-| Admin & Documentation       | 4–6                           | 5–8                          | 8–10%     |
-| **Total**                   | **45–63**                      | **60–80**                     | **100%**  |
+|-----------------------------|-------------------------------|------------------------------|----------|
+| Bornara Tools Development   | 40–50                         | 50–65                        | 65–70%   |
+| Cookie Business Support     | 5–10                          | 8–12                          | 10–15%   |
+| Admin & CRA Documentation   | 4–6                           | 5–8                           | 8–10%    |
+| SEO Content & Marketing     | 4–8                           | 6–10                          | 8–12%    |
+| Consulting (if it comes)    | 0–4                           | 0–6                           | 0–5%    |
+| **Total (Mahdi)**           | **53–78**                      | **69–101**                     | **100%** |
+
+**Narjes (independent — not counted in Mahdi’s hours):**
+
+| Activity                    | Hours/Month |
+|-----------------------------|------------|
+| Cookie: recipe testing, baking, packaging | 12–20 |
+| Cookie: Instagram content, filming | 5–10 |
+| Cookie: orders, customer service | 2–5 |
+| Bornara Tools: logo, UI mockups, social graphics | 3–8 (May–Jun only) |
+| Admin: timesheets, receipts | 1–2 |
+| **Total (Narjes)**          | **23–45** |
 
 ---
 
 ## 4. Delegation to Wife
 
-Wife handles ~5-10 hours/week, freeing your time for high-value tasks:
+> **Updated April 20, 2026:** Narjes now **leads** the cookie business independently.
+> Her Tools work is limited to design tasks in May–June only.
 
-| She Does (Save You Time)          | You Focus On Instead                 |
-|-----------------------------------|--------------------------------------|
-| Social media posting              | AI platform development              |
-| Product photography               | Architecture decisions               |
-| Customer service replies          | Marketing strategy                   |
-| Receipt organization              | Consulting delivery                  |
-| Shopify theme updates             | Ad campaign optimization             |
-| Cookie packaging design           | Business planning                    |
+| She Leads (Cookie Business)           | Mahdi Supports With                  |
+|---------------------------------------|--------------------------------------|
+| Recipe testing and perfecting         | Online ordering setup (Shopify page) |
+| Baking and packaging                  | Packaging logistics / shipping       |
+| Instagram content creation + posting  | Analytics review (monthly)           |
+| Customer orders and communication     | Pricing strategy decisions           |
+| Filming recipe videos                 | —                                    |
+
+| She Does for Tools (May–Jun only)     | Then Mahdi takes over                |
+|---------------------------------------|--------------------------------------|
+| Logo design for Bornara Tools         | All ongoing design                   |
+| UI mockup for homepage + tool page    | All development                      |
+| Social media launch graphics          | All marketing                        |
 
 ---
 
@@ -146,7 +167,7 @@ Wife handles ~5-10 hours/week, freeing your time for high-value tasks:
 5. **Protect deep work** — Morning coding sessions are sacred
 6. **Weekly review is mandatory** — Sunday planning sets the week
 7. **Document as you go** — CRA logs take 5 minutes if done daily, hours if done monthly
-8. **Say no to scope creep** — Focus on the 4 streams, nothing else
+8. **Say no to scope creep** — Focus on Tools + Cookies only. Do NOT start Giftifye or AI Platform until activation criteria are met (see [12-Month Roadmap](12-month-roadmap.md)).
 
 ---
 

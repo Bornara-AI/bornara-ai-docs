@@ -3,8 +3,14 @@
 **Owner:** Mahdi Moradi
 **Status:** Draft
 **Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Last Updated:** 2026-04-20
 **Applies To:** Giftifye.com
+
+> **ON HOLD as of April 20, 2026.** This operational playbook is preserved for future
+> activation. Giftifye will be activated when Bornara Tools has 20+ tools live,
+> Mahdi has 5+ free hours/week, and both Mahdi and Narjes agree to start.
+> Earliest possible: Q4 2026. Most likely: Q1 2027.
+> See [12-Month Roadmap](12-month-roadmap.md) for activation criteria.
 
 ---
 

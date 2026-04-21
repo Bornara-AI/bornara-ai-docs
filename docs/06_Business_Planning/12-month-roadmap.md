@@ -1,223 +1,247 @@
-# 2026 — 12-Month Roadmap
+# 2026 — 12-Month Roadmap (Revised)
 
 **Owner:** Mahdi Moradi
 **Status:** Draft
-**Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Version:** 2.0.0
+**Last Updated:** 2026-04-20
 **Applies To:** Company
 
 ---
 
 ## Overview
 
-This roadmap breaks down the 2026 business execution plan month-by-month across all four revenue
-streams. Each month includes specific tasks, milestones, expected costs, and revenue targets.
+> **Strategic pivot (April 20, 2026):** The original 4-stream roadmap was unrealistic for
+> 17–20 hours/week. Q1 milestones were largely missed. This revised roadmap focuses on
+> **2 active streams** (Bornara Tools + Cookie Business) with Giftifye deferred until Tools
+> is stable, and the AI Platform deferred to 2027.
 
-**Time Constraint:** All work is done outside a full-time 9-5 job — see
+**Active streams:**
+
+1. **Bornara Tools** — Mahdi builds (12–15h/week). Free online toolbox → ad revenue.
+2. **Cookie Business** — Narjes leads (5–10h/week). Recipe testing → local + online sales.
+3. **Tech Consulting** — Opportunistic only. Take projects if they come, don't pursue.
+
+**Deferred streams:**
+
+- **Giftifye.com** — On hold. Start after Bornara Tools is stable (est. Q4 2026 or Q1 2027).
+- **AI Agent Platform** — Deferred to Q1 2027. Tools development teaches transferable patterns.
+
+**Time Constraint:** All work is done outside a full-time 9–5 job + weekend kitchen job. See
 [Time Management Plan](time-management-plan.md).
 
 ---
 
-## Q1: Foundation (January–March)
+## Q1 Actual (January–March) — Foundation Incomplete
 
-### January — Setup & Infrastructure
+> This section documents what actually happened vs. what was planned.
 
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| Equipment         | Buy laptop ($1,500–2,500), phone ($1,200–1,800), monitor ($300–600)     |
-| Home Office       | Set up dedicated workspace, calculate office % of home                  |
-| Giftifye          | Finalize Shopify store structure, select initial 20-30 products         |
-| AI Platform       | Begin architecture design, set up Azure environment                     |
-| Cookies           | Research cottage food laws, test recipes, plan packaging                 |
-| Admin             | Set up expense tracking spreadsheet, start business activity logs       |
-| Wife Tasks        | Logo design, branding, product image mockups, social media templates    |
-| Documentation     | Begin CRA documentation system                                          |
+| Planned | Actual |
+|---------|--------|
+| Buy laptop, phone, monitor | Not purchased |
+| Build Giftifye Shopify store | Not started |
+| AI Platform architecture | Not started |
+| Cookie recipe testing | In progress |
+| CRA documentation system | Partially set up |
+| Social media accounts | Cookie Instagram opened |
+| First revenue | $0 |
+
+**Q1 Expenses (Actual):** ~$0–$200 (domains, existing subscriptions)
+**Q1 Revenue (Actual):** $0
+
+**Lesson learned:** 4 streams was too ambitious. Narrowing to 2 streams with clear
+ownership (Mahdi = Tools, Narjes = Cookies) is the corrected approach.
+
+---
+
+## Q2: Build & Launch (April–June)
+
+### April — Decision Month & Cookie Foundations
+
+| Area | Tasks |
+|------|-------|
+| **Strategic** | Lock in 2-stream pivot decision (done April 20) |
+| **Cookies** | Get cottage food ruling from Calgary AHS (by April 25) |
+| **Cookies** | Continue recipe testing and filming for Instagram |
+| **Cookies** | Narjes: daily Instagram posting, build follower base |
+| **Tools** | Finalize all planning docs (done) |
+| **Admin** | Start CRA activity log, begin documenting Narjes hours |
 
 **Revenue Target:** $0
-**Expense Target:** $3,000–$5,000 (equipment + setup)
+**Expense Target:** $0–$100
 
-### February — Build & Prepare
+### May — Bornara Tools Phase 1 + Cookie Launch
 
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| Giftifye          | Complete store build, add all products, set up payment processing       |
-| AI Platform       | Data model design, API scaffolding                                       |
-| Cookies           | Perfect 3-5 core recipes, design packaging, test shipping                |
-| Marketing         | Create TikTok/Instagram accounts, begin content creation                 |
-| Wife Tasks        | Product photography, Shopify theme customization, social media setup     |
-| Consulting        | Reach out to 5 potential consulting clients in network                   |
+| Area | Tasks |
+|------|-------|
+| **Tools** | Create GitHub repo, scaffold Next.js 15 project (Week 1) |
+| **Tools** | Build shared components + first 3 tools (Weeks 1–2) |
+| **Tools** | Build remaining 5 Phase 1 tools (Weeks 2–3) |
+| **Tools** | SEO setup: sitemap, Google Search Console, FAQ schema (Week 3) |
+| **Tools** | Soft launch: Reddit r/webdev, Privacy/Terms pages (Week 4) |
+| **Cookies** | If legal: set up simple Shopify page or local ordering system |
+| **Cookies** | First local sales (friends, family, neighbours) |
+| **Cookies** | Narjes: continue Instagram content, start taking orders |
+| **Admin** | Pay Narjes for April+May work, document hours + e-transfer |
 
-**Revenue Target:** $0–$200
-**Expense Target:** $500–$1,000
+**Revenue Target:** $0–$100 (cookie local sales)
+**Expense Target:** $200–$400 (Narjes wages + cookie supplies)
 
-### March — Soft Launch
+### June — Tools Phase 2 + Cookie Momentum
 
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| Giftifye          | Soft launch store, test with friends & family                            |
-| AI Platform       | Continue development, build first pre-built agent                        |
-| Cookies           | Soft launch with local sales, test with friends                          |
-| Marketing         | Start small ad tests ($5/day), post daily on social media                |
-| Consulting        | Complete first 1-2 consulting projects                                   |
-| Wife Tasks        | Customer service setup, admin processes, social media management          |
+| Area | Tasks |
+|------|-------|
+| **Tools** | Build 6 Phase 2 tools (Image Compressor, Resizer, Colour Palette, etc.) |
+| **Tools** | Write how-to content for all 14 pages |
+| **Tools** | Submit AdSense application (requires 20+ content pages) |
+| **Cookies** | Scale to regular local orders |
+| **Cookies** | Test online ordering if local demand exists |
+| **Cookies** | Narjes: Instagram growth, recipe content, customer photos |
+| **Admin** | Mid-quarter CRA documentation review |
 
-**Revenue Target:** $0–$300
-**Expense Target:** $500–$800
-
-> **Status (March 19, 2026):** Q1 is partially complete. Equipment purchase, store build,
-> and soft launch tasks are behind schedule. See the
-> [April Action Plan](april-2026-action-plan.md) for a corrected 30-day sprint that
-> catches up on Q1 gaps and executes the most critical Q2 items.
-
----
-
-## Q2: Launch & Test (April–June)
-
-### April — Catch-Up Sprint + Official Launch
-
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| **CATCH-UP**      | Complete all incomplete Q1 items (see April Action Plan)                |
-| Giftifye          | Official store launch, Mother's Day collection prep                     |
-| AI Platform       | MVP development continues, 2 pre-built agents ready                     |
-| Cookies           | Confirm Calgary cottage food rules; launch only if legal                 |
-| Marketing         | Increase ad spend to $10–15/day, email marketing setup                   |
-| Finance           | First LOC draw (if needed), set up business bank account                |
-| Insurance         | Get CGL quote; purchase if first sale occurs                            |
-| Wife Tasks        | Branding updates, product photography, customer service                  |
-| Revenue Actions   | Mother's Day push (gifts + cookies combo)                                |
-
-**Revenue Target:** $300–$600
-**Expense Target:** $600–$1,000
-
-### May — Mother's Day Peak & Optimization
-
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| Giftifye          | Mother's Day sales push, analyze top-selling products                    |
-| AI Platform       | Continue building, test with 3-5 beta users                              |
-| Cookies           | Scale cookie production for orders                                       |
-| Marketing         | Analyze ad performance, double down on winners                           |
-| Revenue Actions   | Run Mother's Day promotions across all channels                          |
-
-**Revenue Target:** $500–$800
-**Expense Target:** $500–$800
-
-### June — Q2 Review & Adjustment
-
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| All Streams       | Review Q2 performance, identify winning products/services                |
-| Giftifye          | Add Father's Day collection, corporate gifting outreach                  |
-| AI Platform       | MVP feature complete, begin limited beta launch                          |
-| Cookies           | Cookie-of-the-month subscription test                                    |
-| Marketing         | Build email list to 200+, increase social media posting                  |
-| Admin             | Mid-year financial review, update CRA documentation                      |
-
-**Revenue Target:** $300–$600
-**Expense Target:** $500–$800
+**Revenue Target:** $50–$300 (cookie sales)
+**Expense Target:** $200–$500 (Narjes wages + supplies)
 
 ---
 
-## Q3: Scale & Develop (July–September)
+## Q3: Scale & Monetize (July–September)
 
-### July — Scaling Winners
+### July — Tools AI Launch + Cookie Online
 
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| Giftifye          | Scale winning products, add 10-20 new items, test new bundles           |
-| AI Platform       | Add subscription tiers, improve based on beta feedback                   |
-| Cookies           | Scale production, add summer-themed collections                          |
-| Marketing         | Increase ad spend for winners, begin influencer outreach                 |
-| Consulting        | Offer AI automation packages, pitch to 5 new clients                     |
+| Area | Tasks |
+|------|-------|
+| **Tools** | Build Phase 3: AI tools launch (5 AI-powered tools) |
+| **Tools** | Set up OpenAI API, Upstash Redis rate limiting |
+| **Tools** | AdSense approval expected — first ad units placed |
+| **Tools** | First ad revenue (small) |
+| **Cookies** | Online ordering live (if not already) |
+| **Cookies** | Summer-themed cookie collections |
+| **Admin** | First revenue tracking, CRA documentation update |
 
-**Revenue Target:** $500–$700
-**Expense Target:** $600–$1,000
+**Revenue Target:** $50–$200 (Tools ads + cookie sales)
+**Expense Target:** $200–$400 (API costs + Narjes wages + supplies)
 
-### August — AI Platform Push
+### August — Viral Tools + Cookie Growth
 
-| Area              | Tasks                                                                    |
-|-------------------|--------------------------------------------------------------------- ----|
-| AI Platform       | Public beta launch, begin paid subscriptions                              |
-| Giftifye          | Back-to-school collections, improve conversion rate                       |
-| Cookies           | Back-to-school cookie boxes, event cookie orders                          |
-| Marketing         | Product Hunt submission (AI platform), LinkedIn push for consulting       |
-| Brother (Abroad)  | Begin involving brother in tasks (see Team Roles doc)                     |
+| Area | Tasks |
+|------|-------|
+| **Tools** | Build Phase 4: Viral tools ("Roast My Website", AI Text Detector) |
+| **Tools** | ProductHunt launch |
+| **Tools** | Shareable result URLs for viral growth |
+| **Cookies** | Back-to-school cookie boxes |
+| **Cookies** | Event cookie orders (if demand exists) |
 
-**Revenue Target:** $500–$700
-**Expense Target:** $600–$1,000
+**Revenue Target:** $100–$400 (Tools ads + cookie sales)
+**Expense Target:** $250–$500
 
-### September — Pre-Holiday Prep
+### September — Pre-Holiday Prep + Tools Phase 5
 
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| All Streams       | Prepare for Q4 holiday season — inventory, content, ads planned          |
-| Giftifye          | Thanksgiving + early Christmas collection planning                       |
-| AI Platform       | Add template marketplace (early access)                                  |
-| Cookies           | Holiday cookie box designs, pre-order system                             |
-| Marketing         | Build email list to 500+, create holiday marketing calendar              |
-| Admin             | Q3 financial review, update all CRA documentation                        |
+| Area | Tasks |
+|------|-------|
+| **Tools** | Build Phase 5: Business tools (Invoice Generator, AI tools) |
+| **Tools** | Cross-promotion CTAs (consulting, future Giftifye) |
+| **Tools** | Analytics deep-dive: which tools get traffic |
+| **Cookies** | Holiday cookie box designs, pre-order system |
+| **Cookies** | Narjes: holiday Instagram campaign planning |
+| **Giftifye** | **Decision point:** If Tools is stable + generating traffic, begin Giftifye setup |
+| **Admin** | Q3 financial review, update all CRA documentation |
 
-**Revenue Target:** $500–$600
-**Expense Target:** $500–$800
-
----
-
-## Q4: Holiday Season & Year-End (October–December)
-
-### October — Holiday Launch
-
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| Giftifye          | Launch holiday collections, Halloween bundles                            |
-| Cookies           | Halloween cookies, begin Christmas pre-orders                            |
-| AI Platform       | Feature updates, onboard more subscribers                                |
-| Marketing         | Aggressive holiday advertising begins ($15-20/day)                       |
-| Consulting        | Year-end client projects                                                 |
-
-**Revenue Target:** $600–$800
-**Expense Target:** $700–$1,200
-
-### November — Black Friday / Peak Sales
-
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| All Streams       | Black Friday / Cyber Monday promotions                                   |
-| Giftifye          | Maximum sales push — bundles, discounts, gift cards                      |
-| Cookies           | Holiday cookie subscription push                                         |
-| AI Platform       | Annual subscription discount promotion                                   |
-| Marketing         | Peak ad spend, email blasts, retargeting                                 |
-
-**Revenue Target:** $700–$1,000
-**Expense Target:** $800–$1,500
-
-### December — Christmas & Year-End Close
-
-| Area              | Tasks                                                                   |
-|-------------------|-------------------------------------------------------------------------|
-| All Streams       | Christmas shipping deadlines, last-minute sales                          |
-| Giftifye          | Last-minute gift sales, New Year collection                              |
-| Cookies           | Christmas cookie boxes, New Year celebration packs                       |
-| Year-End Admin    | Final wife/kids payments, complete all CRA documentation                 |
-| Tax Prep          | Review all expenses, prepare T2125 data, year-end financial summary      |
-| Planning          | Draft 2027 business plan based on 2026 learnings                         |
-
-**Revenue Target:** $1,000–$1,500
-**Expense Target:** $500–$1,000
+**Revenue Target:** $100–$500
+**Expense Target:** $250–$500
 
 ---
 
-## Annual Summary
+## Q4: Harvest & Plan 2027 (October–December)
 
-| Quarter | Revenue Target   | Expense Target    | Key Milestones                             |
-|---------|------------------|-------------------|--------------------------------------------|
-| Q1      | $0–$500          | $4,000–$6,800     | Equipment bought, stores being built        |
-| Q2      | $1,000–$2,000    | $1,600–$2,600     | Stores launched, AI MVP, first revenue      |
-| Q3      | $1,500–$2,000    | $1,700–$2,800     | Scaling winners, AI beta, pre-holiday prep  |
-| Q4      | $2,000–$3,000    | $2,000–$3,700     | Holiday sales peak, year-end close          |
-| **Total** | **$5,000–$8,500** | **$9,300–$15,900** | **Multiple revenue streams active**       |
+### October — Tools Complete + Giftifye Start (If Ready)
 
-**Expected Net Loss:** $10,000–$20,000 (including wife/kids wages, home office, CCA)
+| Area | Tasks |
+|------|-------|
+| **Tools** | Build Phase 6: Final 5 tools (Grammar Checker, ELI5, Career Advisor, etc.) |
+| **Tools** | All 35 tools live — premium tier assessment |
+| **Tools** | SEO refinement on top-performing pages |
+| **Cookies** | Halloween cookies, Christmas pre-orders open |
+| **Giftifye** | If Tools stable: begin Shopify store build (10 products, basic theme) |
+
+**Revenue Target:** $150–$600
+**Expense Target:** $300–$600
+
+### November — Peak Season
+
+| Area | Tasks |
+|------|-------|
+| **Tools** | Maintain + optimize (RPM, ad placement) |
+| **Tools** | Q4 seasonal RPM boost (holiday ad spend) |
+| **Cookies** | Holiday cookie subscription push, gift boxes |
+| **Giftifye** | If started: soft launch with holiday products |
+| **Consulting** | Year-end client projects (if any come through) |
+
+**Revenue Target:** $200–$800
+**Expense Target:** $300–$600
+
+### December — Year-End Close + 2027 Planning
+
+| Area | Tasks |
+|------|-------|
+| **All** | Christmas sales push (cookies, possibly Giftifye) |
+| **Tools** | Year-end performance report |
+| **Year-End** | Final Narjes/kids payments, complete CRA documentation |
+| **Tax Prep** | Review all expenses, prepare T2125 data |
+| **Planning** | Draft 2027 business plan — AI Platform + Giftifye scaling |
+
+**Revenue Target:** $200–$1,000
+**Expense Target:** $300–$600
+
+---
+
+## Annual Summary (Revised)
+
+| Quarter | Revenue Target   | Expense Target   | Key Milestones                             |
+|---------|------------------|------------------|--------------------------------------------|
+| Q1      | $0 (actual)      | $0–$200 (actual) | Planning, cookie recipe testing             |
+| Q2      | $50–$400         | $400–$1,000      | Tools Phase 1–2 live, cookie local sales    |
+| Q3      | $250–$1,100      | $700–$1,400      | Tools AI launch, first ad revenue, cookie online |
+| Q4      | $550–$2,400      | $900–$1,800      | All 35 tools live, holiday cookie sales, Giftifye starts |
+| **Total** | **$360–$2,400** | **$2,000–$4,400** | **2 streams active, Giftifye starting**  |
+
+**Expected Net Loss (with wages):** $6,000–$13,000 (including wife wages $5,200–$10,000,
+kids wages $500–$1,000, home office $2,000–$3,000, equipment CCA)
+
+**Comparison to original plan:**
+
+| Metric | Original Plan | Revised Plan |
+|--------|--------------|-------------|
+| Active streams | 4 | 2 (+ consulting opportunistic) |
+| Revenue target | $5,000–$8,500 | $360–$2,400 |
+| Expense target | $9,300–$15,900 | $2,000–$4,400 |
+| Net loss | $10,000–$20,000 | $6,000–$13,000 |
+| Realistic? | No (proven by Q1 results) | Yes |
+
+---
+
+## Giftifye Activation Criteria
+
+Giftifye moves from "on hold" to "active" when ALL of:
+
+- [ ] Bornara Tools has 20+ tools live and generating organic traffic
+- [ ] Mahdi has 5+ free hours/week (either from Tools automation or dropping kitchen job)
+- [ ] Cookie business is self-running (Narjes handles independently)
+- [ ] It's a good seasonal moment (ideally before a gift-giving holiday)
+
+**Earliest possible:** September–October 2026
+**Most likely:** Q1 2027
+
+---
+
+## AI Platform Activation Criteria
+
+AI Platform moves from "deferred" to "active" when:
+
+- [ ] Bornara Tools is generating $200+/month passive ad revenue
+- [ ] Giftifye is launched and running
+- [ ] Mahdi has proven the full-stack shipping pattern (Tools proves this)
+- [ ] Market conditions still favour SMB AI agents
+
+**Earliest possible:** Q1 2027
 
 ---
 

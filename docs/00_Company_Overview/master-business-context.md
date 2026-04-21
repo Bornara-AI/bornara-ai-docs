@@ -1,9 +1,9 @@
 # Bornara AI — Master Business Context
 
 **Owner:** Mahdi Moradi
-**Status:** Active
-**Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Status:** Draft
+**Version:** 2.0.0
+**Last Updated:** 2026-04-20
 **Applies To:** Company
 
 > **Purpose:** This is the single source of truth for all AI tools working on this project.
@@ -27,7 +27,8 @@
 | Mortgage               | ~$470,000 (~$2,700/month payments)                            |
 | Other Debt             | ~$30,000                                                      |
 | Business Bank Account  | RBC (recently opened, dedicated to business)                  |
-| Personal LOC           | BMO, ~9–11% variable, up to $50K available                    |
+| Personal LOC (Mahdi)   | BMO, ~9–11% variable, $12K limit                             |
+| Personal LOC (Narjes)  | RBC, ~10–12% variable (+1%), $32K limit                      |
 | Tax Filing             | Wealthsimple (T1 + T2125)                                    |
 | HST Registered         | No (not required until $30,000 revenue)                       |
 
@@ -45,42 +46,46 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 
 ## 3. Revenue Streams (2026)
 
-| Stream                | Platform       | Revenue Target  | Status        |
-|-----------------------|----------------|-----------------|---------------|
-| Giftifye.com          | Shopify        | $3,000-$5,000   | In development|
-| AI Agent Platform     | Azure/SaaS     | $500-$1,500     | Architecture  |
-| Tech Consulting       | Direct         | $500-$2,000     | Active        |
-| Cookie Business       | Shopify        | $500-$1,500     | Planning      |
-| **Total 2026**        |                | **$5,000-$8,500**|              |
+> **Strategic pivot (April 20, 2026):** Reduced from 4 simultaneous streams to 2 active
+> streams. Giftifye and AI Platform are deferred — not cancelled. See
+> [Business Plan](../06_Business_Planning/business-plan.md) for rationale.
+
+| Stream                | Platform       | Revenue Target  | Status              |
+|-----------------------|----------------|-----------------|---------------------|
+| Bornara Tools         | Vercel/Next.js | $60-$400        | Active — building May 2026 |
+| Cookie Business       | Instagram/Local| $300-$1,500     | Active — testing recipes  |
+| Tech Consulting       | Direct         | $0-$500         | Opportunistic only  |
+| Giftifye.com          | Shopify        | $0              | **On hold** — start after Tools stable |
+| AI Agent Platform     | Azure/SaaS     | $0              | **Deferred to 2027** |
+| **Total 2026**        |                | **$360-$2,400** |                     |
 
 ## 4. Financial Overview (2026)
 
 | Item                  | Amount                                                 |
 |-----------------------|--------------------------------------------------------|
-| Revenue Target        | $5,000-$8,500                                          |
-| Total Deductions      | $13,600-$33,000                                        |
-| Expected Net Loss     | $10,000-$20,000                                        |
-| Estimated Tax Savings | $3,000-$8,000                                          |
-| Funding Source        | Personal LOC (max $25K draw in 2026)                   |
-| Insurance Budget      | $0-$1,500 (phased with revenue triggers)               |
+| Revenue Target        | $360-$2,400                                            |
+| Total Deductions      | $8,000-$15,000                                         |
+| Expected Net Loss     | $6,000-$13,000                                         |
+| Estimated Tax Savings | $2,000-$5,000                                          |
+| Funding Source        | LOC: Mahdi BMO $12K + Narjes RBC $32K = $44K total available |
+| Insurance Budget      | $0-$500 (cookies only if needed)                       |
 
 ## 5. Key Deduction Categories
 
-| Category              | 2026 Target         |
-|-----------------------|---------------------|
-| Wife's wages          | $5,200-$15,600      |
-| Kids' wages           | $1,000-$2,000       |
-| Equipment (CCA)       | $1,200-$2,000       |
-| Home office           | $2,000-$3,000       |
-| Software/subscriptions| $1,000-$2,000       |
-| Shopify/e-commerce    | $700-$1,100         |
-| Advertising           | $1,000-$3,000       |
-| Domains/hosting       | $300-$800           |
-| Travel/vehicle        | $500-$1,500         |
-| Meals (50%)           | $200-$500           |
-| Cookie supplies       | $400-$1,000         |
-| LOC interest          | $500-$1,500         |
-| Insurance             | $0-$1,500           |
+| Category              | 2026 Target         | Notes                               |
+|-----------------------|---------------------|-------------------------------------|
+| Wife's wages          | $5,200-$10,000      | Cookie business + Tools design work |
+| Kids' wages           | $500-$1,000         | Testing, photography, packaging     |
+| Equipment (CCA)       | $1,200-$2,000       | Existing FMV + any new purchases    |
+| Home office           | $2,000-$3,000       | Replaces $500 employment deduction  |
+| Software/subscriptions| $500-$1,200         | OpenAI API, dev tools, AI tools     |
+| OpenAI API costs      | $80-$300            | Bornara Tools AI features           |
+| Domains/hosting       | $100-$300           | Existing domains, Vercel free tier  |
+| Cookie supplies       | $200-$600           | Ingredients, packaging, permits     |
+| Travel/vehicle        | $200-$500           | Local supplier visits               |
+| Meals (50%)           | $100-$300           | Business planning meals             |
+| LOC interest          | $200-$800           | Lower draws than original plan      |
+| Insurance             | $0-$500             | Cookie product liability if needed  |
 
 ## 6. 2025 Business History
 
@@ -99,34 +104,44 @@ Wife also works part-time in kitchen earning ~$15,000/year.
 
 ## 7. Active Projects
 
-### Giftifye.com (Shopify Gift Store)
+### Bornara Tools (Free Online Toolbox) — ACTIVE
+
+- Free ad-supported toolbox website: 35+ developer/AI/business tools
+- Tech: Next.js 15, Vercel, Tailwind CSS, shadcn/ui, OpenAI GPT-4o-mini
+- URL: tools.bornara.com (subdomain of existing bornara.com)
+- Revenue: Google AdSense (Phase 1), Premium tier (Phase 2)
+- Mahdi builds full-time (12-15h/week); Narjes does logo + UI mockups
+- **Status (April 2026):** 8 planning docs complete, tech stack locked, building starts May 1
+- See [Bornara Tools docs](../05_Projects/bornara-tools/README.md)
+
+### Cookie Business — ACTIVE
+
+- Homemade cookies: baking, packaging, local sales + online ordering
+- Narjes leads: recipe testing, filming, Instagram content, packaging
+- Instagram account opened, recipes being tested and filmed
+- Cottage food ruling pending (call Calgary AHS by April 25)
+- **Status (April 2026):** Testing recipes, filming content, Instagram live
+
+### Tech Consulting — OPPORTUNISTIC
+
+- Shopify setup ($500-$1,500), AI automation ($75-$150/hr), web dev ($500-$2,000)
+- Not actively pursued; take opportunities if they come through network
+- Channels: LinkedIn, network referrals
+
+### Giftifye.com (Shopify Gift Store) — ON HOLD
 
 - Curated aesthetic gift bundles, personalized items, seasonal products
-- Suppliers: AliExpress, CJ Dropshipping, Zendrop, Printify
-- 5 core bundles: Spa Box, Coffee Pack, Baby Set, Date Night Box, Pet Kit
-- Pricing: Cost x 3 = selling price; bundle margins 40-70%
-- Marketing: TikTok (primary), Instagram, Facebook, email (Klaviyo)
-- Wife handles: branding, photography, social media, customer service
-- **Status (March 2026):** Domains purchased, logos/branding complete (by Narjes in 2025),
-  Shopify store not yet built, Narjes studying dropshipping
+- Domains purchased, logos/branding complete (by Narjes in 2025)
+- No website built, no products listed, no store progress
+- **Deferred until Bornara Tools reaches stable state (est. Q4 2026 or Q1 2027)**
+- Assets preserved: domain, branding, supplier research
 
-### AI Agent Platform (SaaS)
+### AI Agent Platform (SaaS) — DEFERRED TO 2027
 
 - Build-your-own AI assistants platform
 - Tech: Azure, Python, LangChain, FastAPI, CosmosDB, Service Bus
-- Subscription tiers: Free / Pro ($29) / Business ($79) / Enterprise
-- Template marketplace with 70/30 creator split
-- Roadmap: Q1 architecture, Q2 MVP, Q3 beta, Q4 public launch
-
-### Tech Consulting
-
-- Shopify setup ($500-$1,500), AI automation ($75-$150/hr), web dev ($500-$2,000)
-- Target: small businesses, friends, local businesses
-- Channels: LinkedIn, Fiverr/Upwork, network referrals
-
-### Cookie Business
-
-- Homemade cookies via Shopify, baking, packaging, and shipping
+- No development started; architecture docs only
+- **Deferred to Q1 2027** — Bornara Tools teaches patterns reusable for this platform
 - Products: Cookie boxes (6/$18, 12/$30), custom event cookies, subscriptions
 - Requires: cottage food law research, food handler cert
 - Cross-sells with Giftifye bundles

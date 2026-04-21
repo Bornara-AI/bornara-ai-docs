@@ -61,7 +61,8 @@ jobs:
           else
             # Check if any trigger files changed
             needs_update=false
-            for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            IFS=' ' read -ra FILES <<< "${{ steps.changed-files.outputs.all_changed_files }}"
+            for file in "${FILES[@]}"; do
               case $file in
                 package.json|.github/workflows/*|scripts/*|.markdownlint.json|.prettierrc.json)
                   needs_update=true
@@ -78,7 +79,7 @@ jobs:
       - name: Check for new projects
         id: new-projects
         run: |
-          new_projects=$(git diff --name-only origin/main...HEAD | grep "docs/05_Projects/" | cut -d/ -f3 | sort -u || echo "")
+          new_projects=$(git diff --name-only origin/main...HEAD | grep "docs/05_Projects/" | cut -d/ -f3 | sort -u | paste -sd ',' - || echo "")
           if [ -n "$new_projects" ]; then
             echo "found=true" >> $GITHUB_OUTPUT
             echo "projects=$new_projects" >> $GITHUB_OUTPUT

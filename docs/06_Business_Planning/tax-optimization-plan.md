@@ -2,8 +2,8 @@
 
 **Owner:** Mahdi Moradi
 **Status:** Draft
-**Version:** 1.0.0
-**Last Updated:** 2026-03-17
+**Version:** 2.0.0
+**Last Updated:** 2026-04-20
 **Applies To:** Company
 
 > **Disclaimer:** This document summarizes a tax strategy based on publicly available CRA
@@ -24,15 +24,18 @@ As a Canadian sole proprietor with full-time employment income, the 2026 tax str
 
 ### Expected 2026 Outcome
 
+> **Updated April 20, 2026:** Revised for 2-stream focus (Tools + Cookies).
+
 | Item                    | Amount                |
 |-------------------------|-----------------------|
-| Business Revenue        | $5,000–$8,500         |
-| Total Deductions        | $18,700–$33,500       |
-| Net Business Loss       | $10,000–$20,000       |
-| Tax Savings (est.)      | $3,000–$8,000         |
+| Business Revenue        | $360–$2,400           |
+| Total Deductions        | $8,000–$15,000        |
+| Net Business Loss       | $6,000–$13,000        |
+| Tax Savings (est.)      | $2,000–$5,000         |
 
-A $20,000 business loss is reasonable and CRA-defensible for a business in its first full operating
-year with documented investment in growth.
+A $6,000–$13,000 business loss is reasonable and CRA-defensible for a business in its first
+full operating year with documented investment in growth. This is actually more conservative
+than the original $20K plan, which strengthens the CRA position.
 
 ---
 
@@ -53,16 +56,14 @@ year with documented investment in growth.
 
 **Legitimate tasks she performs:**
 
-- Logo and branding design
-- Product photography (Giftifye, cookies)
-- Shopify theme customization
-- Social media content creation and management
-- Gift bundle layout design
-- Customer service
+- Cookie recipe testing, development, and documentation
+- Cookie packaging design and production
+- Cookie photography and Instagram content creation
+- Cookie customer orders and communication
+- Bornara Tools logo design and UI mockups (May–June)
+- Social media graphics for Bornara Tools launch
 - Administrative work (emails, scheduling, receipts)
-- Supplier communication
-- AI platform UI feedback and testing
-- Cookie recipe testing and packaging design
+- Business planning meeting participation
 
 **Required Documentation:**
 
@@ -174,14 +175,17 @@ Typical range: 10–15%
 | Accounting software      | $0–$20       | $0–$240       |
 | Other AI tools           | $10–$30      | $120–$360     |
 
-### 2.6 Shopify & E-Commerce — $700–$1,100
+### 2.6 Shopify & E-Commerce — $0–$500
+
+> **Updated:** Shopify subscription deferred until cookies go online or Giftifye starts.
+> No Shopify costs in 2026 unless cookie online sales require it.
 
 | Expense                  | Annual Cost                            |
 |--------------------------|----------------------------------------|
-| Shopify subscription     | $468 ($39/month)                       |
-| Shopify apps             | $240–$600                              |
-| Product samples          | $100–$300                              |
-| Packaging materials      | $100–$200                              |
+| Shopify subscription     | $0–$468 (only if cookies go online)     |
+| Shopify apps             | $0–$100                                |
+| Product samples          | $0                                     |
+| Packaging materials      | $50–$200 (cookie packaging)             |
 
 ### 2.7 Advertising — $1,000–$3,000
 
@@ -238,23 +242,27 @@ Typical range: 10–15%
 
 ## 3. Total 2026 Deduction Summary
 
+> **Updated April 20, 2026:** Reduced to reflect 2-stream focus. Lower total = more
+> conservative CRA position = less audit risk.
+
 | Category              | Low Estimate   | High Estimate  |
 |-----------------------|----------------|----------------|
-| Wife's wages          | $5,200         | $15,600        |
-| Kids' wages           | $1,000         | $2,000         |
+| Wife's wages          | $5,200         | $10,000        |
+| Kids' wages           | $500           | $1,000         |
 | Equipment CCA         | $1,200         | $2,000         |
 | Home office           | $2,000         | $3,000         |
-| Software/tools        | $1,000         | $2,000         |
-| Shopify/e-commerce    | $700           | $1,100         |
-| Advertising           | $1,000         | $3,000         |
-| Domains/hosting       | $300           | $800           |
-| Travel/vehicle        | $500           | $1,500         |
-| Meals (50%)           | $200           | $500           |
-| Cookie expenses       | $400           | $1,000         |
-| Courses/training      | $100           | $500           |
-| LOC interest          | $500           | $1,500         |
-| Insurance             | $0             | $1,500         |
-| **TOTAL**             | **$14,600**    | **$36,000**    |
+| Software/tools        | $500           | $1,200         |
+| OpenAI API            | $80            | $300           |
+| Shopify/e-commerce    | $0             | $500           |
+| Advertising           | $0             | $100           |
+| Domains/hosting       | $60            | $300           |
+| Travel/vehicle        | $200           | $500           |
+| Meals (50%)           | $100           | $300           |
+| Cookie expenses       | $200           | $600           |
+| Courses/training      | $0             | $200           |
+| LOC interest          | $200           | $800           |
+| Insurance             | $0             | $500           |
+| **TOTAL**             | **$10,240**    | **$21,300**    |
 
 ---
 
@@ -274,11 +282,13 @@ Typical range: 10–15%
 ### CRA Narrative (Keep With Records)
 
 > "Bornara AI is a sole proprietorship in its first full year of operations in 2026. The business
-> operates four revenue streams: an e-commerce gift store (Giftifye.com), an AI agent SaaS
-> platform under development, technology consulting services, and a cookie baking/shipping
-> business. The business incurred a net loss due to startup investments in equipment, software,
-> advertising, and wages for family members performing legitimate business tasks. The business has
-> a documented plan, real revenue, real customers, and a clear path to profitability by 2027-2028."
+> operates two active revenue streams: a free online developer toolbox (Bornara Tools) generating
+> ad revenue, and a cookie baking business with local and online sales. Two additional streams
+> (Giftifye.com gift store and an AI agent SaaS platform) are in planning with documented assets
+> preserved for 2027 launch. The business incurred a net loss due to startup investments in
+> software, equipment, and wages for family members performing legitimate business tasks. The
+> business has a documented plan, real revenue activity, and a clear path to profitability by
+> 2027–2028."
 
 ---
 
