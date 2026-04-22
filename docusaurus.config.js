@@ -7,8 +7,8 @@ const config = {
   tagline: 'Business Operating System',
   favicon: 'img/favicon.ico',
 
-  url: 'https://bornara-ai.github.io',
-  baseUrl: '/bornara-ai-docs/',
+  url: 'https://didactic-robot-2qyeevv.pages.github.io',
+  baseUrl: '/',
 
   organizationName: 'Bornara-AI',
   projectName: 'bornara-ai-docs',
