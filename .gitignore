@@ -6,6 +6,16 @@ dist/
 build/
 *.log
 
+# Docusaurus
+.docusaurus/
+
+# Generated data (rebuilt on deploy)
+static/tasks.json
+src/data/tasks.json
+
+# Debug artifacts
+temp-*.txt
+
 # OS files
 .DS_Store
 Thumbs.db
