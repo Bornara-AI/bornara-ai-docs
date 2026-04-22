@@ -19,13 +19,22 @@
     "registry:update": "node scripts/generate-project-registry.js",
     "issues:preview": "node scripts/generate-github-issues.js --dry-run",
     "issues:create": "node scripts/generate-github-issues.js --create",
+    "issues:export": "node scripts/generate-github-issues.js --export-json static/tasks.json",
+    "docs:start": "npm run issues:export && docusaurus start",
+    "docs:build": "npm run issues:export && docusaurus build",
+    "docs:serve": "docusaurus serve",
+    "docs:deploy": "docusaurus deploy",
     "prepare": "husky"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bornara-AI/bornara-ai-docs.git"
   },
-  "keywords": ["documentation", "monorepo", "portfolio"],
+  "keywords": [
+    "documentation",
+    "monorepo",
+    "portfolio"
+  ],
   "author": "Bornara AI",
   "license": "PROPRIETARY",
   "bugs": {
@@ -33,6 +42,10 @@
   },
   "homepage": "https://github.com/Bornara-AI/bornara-ai-docs#readme",
   "devDependencies": {
+    "@docusaurus/types": "^3.10.0",
+    "@easyops-cn/docusaurus-search-local": "^0.47.0",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
     "glob": "^10.3.10",
     "husky": "^9.0.11",
     "lint-staged": "^16.4.0",
@@ -43,5 +56,15 @@
       "markdownlint-cli2 --fix",
       "markdownlint-cli2"
     ]
-  }
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.10.0",
+    "@docusaurus/preset-classic": "^3.10.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "overrides": {
+    "webpack": "5.97.1"
+  },
+  "_note_webpack_override": "Pinned webpack 5.97.1 because webpackbar 6.0.1 crashes on webpack >=5.106. Remove when webpackbar updates."
 }

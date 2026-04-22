@@ -17,6 +17,8 @@
  */
 
 const { execSync } = require('child_process');
+const fs = require('fs');
+const path = require('path');
 
 // ─────────────────────────────────────────────────────────────────────────────
 // CONFIGURATION
@@ -408,7 +410,7 @@ function log(msg, color = 'reset') {
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  const opts = { dryRun: true, repo: DEFAULT_REPO, phase: null, category: null, assignee: null };
+  const opts = { dryRun: true, repo: DEFAULT_REPO, phase: null, category: null, assignee: null, exportJson: null };
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--create') opts.dryRun = false;
@@ -417,6 +419,11 @@ function parseArgs() {
     else if (args[i] === '--phase' && args[i + 1]) { opts.phase = args[++i]; }
     else if (args[i] === '--category' && args[i + 1]) { opts.category = args[++i]; }
     else if (args[i] === '--assignee' && args[i + 1]) { opts.assignee = args[++i]; }
+    else if (args[i] === '--export-json') {
+      opts.exportJson = args[i + 1] && !args[i + 1].startsWith('--')
+        ? args[++i]
+        : 'static/tasks.json';
+    }
   }
 
   return opts;
@@ -536,6 +543,23 @@ function printDryRun(issues) {
 // MAIN
 // ─────────────────────────────────────────────────────────────────────────────
 
+function exportJson(issues, outPath) {
+  const absPath = path.resolve(process.cwd(), outPath);
+  fs.mkdirSync(path.dirname(absPath), { recursive: true });
+  const data = {
+    generated: new Date().toISOString().slice(0, 10),
+    issues: issues.map((issue, idx) => ({
+      id: idx + 1,
+      title: issue.title,
+      labels: issue.labels,
+      milestone: issue.milestone,
+      hours: issue.hours || 0,
+    })),
+  };
+  fs.writeFileSync(absPath, JSON.stringify(data, null, 2), 'utf-8');
+  log(`\n✅ Exported ${issues.length} issues to: ${absPath}`, 'green');
+}
+
 function main() {
   const opts = parseArgs();
   const filtered = filterIssues(ISSUES, opts);
@@ -549,7 +573,10 @@ function main() {
   if (opts.category) log(`   Category: ${opts.category}`, 'reset');
   if (opts.assignee) log(`   Assignee: ${opts.assignee}`, 'reset');
 
-  if (opts.dryRun) {
+  if (opts.exportJson) {
+    exportJson(filtered, opts.exportJson);
+    return;
+  } else if (opts.dryRun) {
     printDryRun(filtered);
     log(`\n📊 Summary: ${filtered.length} issues would be created`, 'cyan');
 
@@ -564,6 +591,8 @@ function main() {
     log(`\n💡 To create these issues, run:`, 'green');
     log(`   node scripts/generate-github-issues.js --create`, 'reset');
     if (opts.phase) log(`   node scripts/generate-github-issues.js --create --phase ${opts.phase}`, 'reset');
+    log(`\n📦 To export for the docs site, run:`, 'green');
+    log(`   node scripts/generate-github-issues.js --export-json`, 'reset');
   } else {
     // Check gh CLI is available
     const ghVersion = ghCommand('--version');
