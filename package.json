@@ -17,6 +17,8 @@
     "project:create": "node scripts/create-new-project.js",
     "project:list": "node scripts/list-projects.js",
     "registry:update": "node scripts/generate-project-registry.js",
+    "issues:preview": "node scripts/generate-github-issues.js --dry-run",
+    "issues:create": "node scripts/generate-github-issues.js --create",
     "prepare": "husky"
   },
   "repository": {
