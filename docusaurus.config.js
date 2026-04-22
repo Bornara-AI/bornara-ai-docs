@@ -7,12 +7,12 @@ const config = {
   tagline: 'Business Operating System',
   favicon: 'img/favicon.ico',
 
-  url: 'https://didactic-robot-2qyeevv.pages.github.io',
-  baseUrl: '/',
+  url: 'https://bornara-ai.github.io',
+  baseUrl: '/bornara-ai-docs/',
 
   organizationName: 'Bornara-AI',
   projectName: 'bornara-ai-docs',
-  trailingSlash: false,
+  trailingSlash: true,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn', // TODO: migrate to markdown.hooks.onBrokenMarkdownLinks in Docusaurus v4
