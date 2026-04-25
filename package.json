@@ -43,7 +43,7 @@
   "homepage": "https://github.com/Bornara-AI/bornara-ai-docs#readme",
   "devDependencies": {
     "@docusaurus/types": "^3.10.0",
-    "@easyops-cn/docusaurus-search-local": "^0.47.0",
+    "@easyops-cn/docusaurus-search-local": "^0.55.1",
     "@types/react": "^18.3.28",
     "@types/react-dom": "^18.3.7",
     "glob": "^10.3.10",
